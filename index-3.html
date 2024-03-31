@@ -1,0 +1,1669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>All Things Go Music Festival</title>
+	<link rel="icon" href="/favicon.png" type="image/png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/styles.css">
+	<link rel="stylesheet" href="/homepage.css">
+	<script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.38/build/spline-viewer.js"></script>
+</head>
+<body>
+	<header id="mainHeader">
+		<div id="toolbar">
+			<button id="menuButton" class="button button-icon-md" aria-controls="header-nav" aria-expanded="false">
+				<span class="visually-hidden">Menu</span>
+				<img class="dark-mode-invert" alt="Menu icon" width="32" height="32" src="/ico/32/function/menu.svg">
+			</button>
+			<a id="home" title="Home" href="/" aria-label="Homepage">
+				<img class="dark-mode-invert" alt="All Things Go logo" width="176" height="24" src="/img/all-things-go-logo.svg">
+			</a>
+			<p><a href="/bbaa" class="underline">Join Besties</a></p>
+			<a id="toolbar-right" title="Boomfy's Besties All Access" href="/bbaa">
+				<img alt="Boomfy's Besties All Access" width="48" height="48" src="/ico/32/boomfy.png">
+			</a>
+		</div>
+		<nav id="headerNav" aria-label="Main navigation">
+			<ul class="link-list">
+				<li><a class="link" href="/lineup.html">Lineup</a></li>
+				<li><a class="link" href="/set-times-map.html">Set Times & Map</a></li>
+				<li><a class="link" href="/#experience">Experience</a></li>
+				<li><a class="link" href="/#merch">Merch</a></li>
+				<li><a class="link" href="/help.html">Help & Info</a></li>
+				<li><a class="cta" href="/#tickets">Get Tickets</a></li>
+				<li><hr><a class="link" href="https://www.allthingsgo.club">Creator Summit</a></li>
+			</ul>
+			<ul class="button-list">
+				<li><a class="cta cta-icon" href="/bbaa"><img alt="Cloud emoji" width="32" height="32" src="/ico/32/cloud-color.png">Boomfy's Besties</a></li>
+				<li><a class="cta cta-icon" href="https://discord.gg/ewE3WWRY" target="_blank"><img alt="Discord logo" width="32" height="32" src="/ico/32/social/discord-color.svg">Join the Discord</a></li>
+				<li><a class="cta cta-icon" href="https://open.spotify.com/playlist/000UTSbsbk75oD8MW3t8dm" target="_blank"><img alt="Spotify logo" width="32" height="32" src="/ico/32/social/spotify-color.svg">Listen to the Playlist</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="poster" class="sec-vhl-safe-h3 flex-col tri-in-bottom">
+		<picture id="poster-image">
+			<source media="(min-width: 1024px)" srcset="img/poster-dc-des.jpg">
+			<img alt="TKPosterdescription" src="img/poster-dc-mob.jpg">
+		</picture>
+		<div class="lineup">
+			<h3>Saturday, September 30th</h3>
+			<ul class="lineup-list ll-vw">
+				<li class="ll-xl ll-full-wdth">Maggie Rogers</li>
+				<li class="ll-lg">Carly Rae Jepsen</li>
+				<li class="ll-lg">Mt. Joy</li>
+				<li>Lizzy McAlpine</li>
+				<li>Dayglow</li>
+				<li>Fletcher</li>
+				<li>Suki Waterhouse</li>
+				<li>Peach Pit</li>
+				<li>Raye</li>
+				<li class="ll-wdth-2">Tegan and Sara</li>
+				<li class="ll-wdth-2">The Wombats</li>
+				<li class="ll-wdth-2">Sudan Archives</li>
+				<li class="ll-wdth-2">Last Dinosaurs</li>
+				<li class="ll-sm">Vacations</li>
+				<li class="ll-sm">Jensen Mcrae</li>
+				<li class="ll-sm">Hemlocke Springs</li>
+			</ul>
+			<br>
+			<h3>Sunday, October 1st</h3>
+			<ul class="lineup-list ll-vw">
+				<li class="ll-xl">Lana Del Rey</li>
+				<li class="ll-xl">Boygenius</li>
+				<li>Muna</li>
+				<li>Arlo Parks</li>
+				<li>Alex G</li>
+				<li>Alvvays</li>
+				<li class="ll-wdth-2">Ethel Cain</li>
+				<li class="ll-wdth-2">Samia</li>
+				<li class="ll-wdth-2">No Vacation</li>
+				<li>Leith Ross</li>
+				<li>Vundabar</li>
+				<li>Tommy Lefroy</li>
+				<li class="ll-wdth-2">Meet Me at the Altar</li>
+				<li class="ll-wdth-2">Ella Jane</li>
+				<li class="ll-sm">Juliana Madrid</li>
+				<li class="ll-sm">Free Range</li>
+			</ul>
+		</div>
+		<!-- <div class="copy-container">
+			<h1><span class="eyebrow">Presale starts</span> <span class="nobr">Thursday, April 15 <span class="nobr">at 10AM</span></span></h1>
+			<button class="cta cta-inverted cta-big cta-special scroll-top-fade" data-modal-trigger="modalNewsletter" aria-haspopup="dialog" aria-controls="modalNewsletter" aria-expanded="false">Sign Up Now For Presale</button>
+		</div> -->
+		<a class="cta cta-big scroll-top-fade" href="#tickets">Get Tickets</a>
+	</section>
+	<section id="tickets" class="tri-above">
+		<h3 class="header-strip hs-link hs-icon">
+			<span>
+				<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.0613 23.7259C16.679 24.545 15.4923 24.4768 15.2064 23.6192L13.5868 18.7604C13.4873 18.4618 13.253 18.2275 12.9544 18.128L8.09561 16.5084C7.23801 16.2225 7.16977 15.0358 7.98895 14.6535L22.5075 7.87821C23.3538 7.48327 24.2315 8.36099 23.8366 9.20727L17.0613 23.7259Z" stroke="var(--white)" stroke-width="1.5"/></svg>
+				Merriweather <span class="nobr">Post Pavilion -</span> <span class="nobr">Columbia, MD</span>
+			</span>
+			<button class="button button-trans button-icon-sm" data-modal-trigger="modalLocation" aria-haspopup="dialog" aria-controls="modalLocation" aria-expanded="false">
+				<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="9" stroke="var(--white)" stroke-width="1.5"/><path d="M16.0938 13.2188C15.4375 13.2188 14.998 12.8145 14.998 12.2051C14.998 11.5957 15.4375 11.1914 16.0938 11.1914C16.75 11.1914 17.1953 11.5957 17.1953 12.2051C17.1953 12.8145 16.75 13.2188 16.0938 13.2188ZM18.8535 21H13.2695V19.7227H15.3438V15.8203H13.375V14.5371H16.9023V19.7227H18.8535V21Z" fill="var(--white)"/></svg>
+				<span class="visually-hidden">Change Location</span>
+			</button>
+		</h3>
+		<h2 class="chamfered-box autoscroll-container as-type-1">
+			<span class="cb-content autoscroller">
+				<span class="icon-sm"><svg width="32" height="16" class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+				<span>Tickets</span>
+				<span class="icon-sm"><svg width="32" height="16" class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+				<em class="outline">Tickets</em>
+				<span class="icon-sm"><svg width="32" height="16" class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+				<span>Tickets</span>
+				<span class="icon-sm"><svg width="32" height="16" class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+				<em class="outline">Tickets</em>
+				<span class="icon-sm"><svg width="32" height="16" class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+				<span>Tickets</span>
+				<span class="icon-sm"><svg width="32" height="16" class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+				<em class="outline">Tickets</em>
+				<span class="icon-sm"><svg width="32" height="16" class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+				<span>Tickets</span>
+				<span class="icon-sm"><svg width="32" height="16" class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+				<em class="outline">Tickets</em>
+			</span>
+		</h2>
+		<div class="tab-selector" role="tablist">
+			<button role="tab" aria-selected="true" aria-controls="tikSaturdayList" id="tikSaturdayTab" class="chamfered-box tab-button"><span class="cb-content">Saturday <span>Sep. 30</span></span></button>
+			<button role="tab" aria-selected="false" aria-controls="tikSundayList" id="tikSundayTab" class="chamfered-box tab-button"><span class="cb-content">Sunday <span>Oct. 1</span></span></button>
+			<button role="tab" aria-selected="false" aria-controls="tikTwoDayList" id="tikTwoDayTab" class="chamfered-box tab-button"><span class="cb-content">Two Day <span>Sep. 30 <span class="nobr">+ Oct. 1</span></span></span></button>
+		</div>
+		<div class="tab-content-wrapper">
+			<div id="tikSaturdayList" role="tabpanel" aria-labelledby="tikSaturdayTab" class="tab-panel">
+				<ul class="ticket-list">
+					<li class="ticket ga chamfered-box">
+						<div class="cb-content">
+							<div class="tt-summary">
+								<h4>General Admission</h4>
+								<a class="cta cta-big-1200 cta-inverted cta-special" href="https://www.google.com">Buy Tickets</a>
+								<p class="price copy">Starting at $00</p>
+								<button class="ticket-expose button button-icon-md button-on-bg-med"><span class="visually-hidden">Details</span><svg class="grad-star-pink" width="32" height="32" aria-labelledby="title" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Exposure plus sign</title><path fill-rule="evenodd" clip-rule="evenodd" d="M17.4392 15.045C17.1753 15.0367 16.9633 14.8247 16.955 14.5608L16.7651 8.48438C16.7567 8.21445 16.5354 8 16.2654 8H15.7346C15.4646 8 15.2433 8.21445 15.2349 8.48438L15.045 14.5608C15.0367 14.8247 14.8247 15.0367 14.5608 15.045L8.48438 15.2349C8.21445 15.2433 8 15.4646 8 15.7346V16.2654C8 16.5354 8.21445 16.7567 8.48438 16.7651L14.5608 16.955C14.8247 16.9633 15.0367 17.1753 15.045 17.4392L15.2349 23.5156C15.2433 23.7855 15.4646 24 15.7346 24H16.2654C16.5354 24 16.7567 23.7855 16.7651 23.5156L16.955 17.4392C16.9633 17.1753 17.1753 16.9633 17.4392 16.955L23.5156 16.7651C23.7855 16.7567 24 16.5354 24 16.2654V15.7346C24 15.4646 23.7855 15.2433 23.5156 15.2349L17.4392 15.045Z" fill="black"/><linearGradient id="gradStarPink" gradientTransform="rotate(135)"><stop offset="00%" /><stop offset="100%" /></linearGradient></svg></button>
+							</div>
+							<ul class="features">
+								<li class="price-range">
+									<ul class="pr-ul">
+										<li>Pre-sale <em>SOLD OUT</em></li>
+										<li class="active">General Sale <em>$85</em></li>
+										<li>Last Call <em>$100</em></li>
+									</ul>
+								</li>
+								<li class="unlocked"><p class="copy"><span>🎟️</span> Access to GA seats on the lawn</p></li>
+								<li class="unlocked"><p class="copy"><span>🤘</span> Access to two festival stages with artist performances</p></li>
+								<li class="unlocked"><p class="copy"><span>🎨</span> Access to interactive festival art installations, activations, and 9:32 Club</p></li>
+								<li class="unlocked"><p class="copy"><span>🌱</span> Access to SkyLawn</p></li>
+								<li class="unlocked"><p class="copy"><span>🍹</span> Cash bar and beer garden with craft cocktails, wine, and beer (for attendees 21 and up)</p></li>
+								<li class="unlocked"><p class="copy"><span>🥕</span> Variety of curated food choices including vegan, vegetarian and gluten-free options</p></li>
+								<li class="unlocked"><p class="copy"><span>💧</span> Water stations with free refills</p></li>
+								<li class="unlocked"><p class="copy"><span>🚽</span> Real bathrooms (not porta potties)</p></li>
+								<li class="unlocked"><p class="copy"><span>🚗</span> Free parking!</p></li>
+							</ul>
+						</div>
+					</li>
+					<li class="ticket pav chamfered-box">
+						<div class="cb-content">
+							<div class="tt-summary">
+								<h4>Pavilion & Lawn</h4>
+								<a class="cta cta-big-1200 cta-inverted cta-special" href="https://www.google.com">Buy Tickets</a>
+								<p class="price copy">Starting at $00</p>
+								<button class="ticket-expose button button-icon-md button-on-bg-med"><span class="visually-hidden">Details</span><svg class="grad-star-pink-light" aria-labelledby="title" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Exposure plus sign</title><path fill-rule="evenodd" clip-rule="evenodd" d="M17.8177 14.8636C17.572 14.8482 17.374 14.6563 17.3511 14.4112L16.7925 8.45333C16.7684 8.19639 16.5527 8 16.2947 8H15.7053C15.4473 8 15.2316 8.19639 15.2075 8.45333L14.6489 14.4112C14.626 14.6563 14.428 14.8482 14.1823 14.8636L8.46881 15.2207C8.20529 15.2372 8 15.4557 8 15.7197V16.2803C8 16.5443 8.20529 16.7628 8.46881 16.7793L14.1823 17.1364C14.428 17.1518 14.626 17.3437 14.6489 17.5888L15.2075 23.5467C15.2316 23.8036 15.4473 24 15.7053 24H16.2947C16.5527 24 16.7684 23.8036 16.7925 23.5467L17.3511 17.5888C17.374 17.3437 17.572 17.1518 17.8177 17.1364L23.5312 16.7793C23.7947 16.7628 24 16.5443 24 16.2803V15.7197C24 15.4557 23.7947 15.2372 23.5312 15.2207L17.8177 14.8636Z"/><linearGradient id="gradStarPinkLight" gradientTransform="rotate(135)"><stop offset="00%" /><stop offset="100%" /></linearGradient></svg></button>
+							</div>
+							<ul class="features">
+								<li class="price-range">
+									<ul class="pr-ul">
+										<li>Pre-sale <em>SOLD OUT</em></li>
+										<li class="active">General Sale <em>$85</em></li>
+										<li>Last Call <em>$100</em></li>
+									</ul>
+								</li>
+								<li class="unlocked"><p class="copy"><span>🤩</span> Access to Pavilion and front of stage pit viewing area</p></li>
+								<li class="unlocked"><p class="copy"><span>🎫</span> Access to GA seats within the pavilion</p></li>
+								<li class="unlocked">
+									<p class="copy"><span>➕</span> <strong>Plus, everything included with the <span class="nobr"> General Admission ticket</span></strong></p>
+									<button class="cta">Show Included Features</button>
+								</li>
+								<li class="included"><p class="copy"><span>🎟️</span> Access to GA seats on the lawn</p></li>
+								<li class="included"><p class="copy"><span>🤘</span> Access to two festival stages with artist performances</p></li>
+								<li class="included"><p class="copy"><span>🎨</span> Access to interactive festival art installations, activations, and 9:32 Club</p></li>
+								<li class="included"><p class="copy"><span>🌱</span> Access to SkyLawn</p></li>
+								<li class="included"><p class="copy"><span>🍹</span> Cash bar and beer garden with craft cocktails, wine, and beer (for attendees 21 and up)</p></li>
+								<li class="included"><p class="copy"><span>🥕</span> Variety of curated food choices including vegan, vegetarian and gluten-free options</p></li>
+								<li class="included"><p class="copy"><span>💧</span> Water stations with free refills</p></li>
+								<li class="included"><p class="copy"><span>🚽</span> Real bathrooms (not porta potties)</p></li>
+								<li class="included"><p class="copy"><span>🚗</span> Free parking!</p></li>
+							</ul>
+						</div>
+					</li>
+					<li class="ticket vip chamfered-box">
+						<div class="cb-content">
+							<div class="tt-summary">
+								<h4>VIP</h4>
+								<a class="cta cta-big-1200 cta-inverted cta-specialc disabled">Sold Out</a>
+								<p class="price copy">Starting at $00</p>
+								<button class="ticket-expose orn-tr button button-icon-md button-on-bg-med"><span class="visually-hidden">Details</span><svg class="grad-star-pink-dark" aria-labelledby="title" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Exposure plus sign</title><path fill-rule="evenodd" clip-rule="evenodd" d="M17.8177 14.8636C17.572 14.8482 17.374 14.6563 17.3511 14.4112L16.7925 8.45333C16.7684 8.19639 16.5527 8 16.2947 8H15.7053C15.4473 8 15.2316 8.19639 15.2075 8.45333L14.6489 14.4112C14.626 14.6563 14.428 14.8482 14.1823 14.8636L8.46881 15.2207C8.20529 15.2372 8 15.4557 8 15.7197V16.2803C8 16.5443 8.20529 16.7628 8.46881 16.7793L14.1823 17.1364C14.428 17.1518 14.626 17.3437 14.6489 17.5888L15.2075 23.5467C15.2316 23.8036 15.4473 24 15.7053 24H16.2947C16.5527 24 16.7684 23.8036 16.7925 23.5467L17.3511 17.5888C17.374 17.3437 17.572 17.1518 17.8177 17.1364L23.5312 16.7793C23.7947 16.7628 24 16.5443 24 16.2803V15.7197C24 15.4557 23.7947 15.2372 23.5312 15.2207L17.8177 14.8636Z"/><linearGradient id="gradStarPinkDark" gradientTransform="rotate(135)"><stop offset="00%" /><stop offset="100%" /></linearGradient></svg></button>
+							</div>
+							<ul class="features">
+								<li class="price-range">
+									<ul class="pr-ul">
+										<li>Pre-sale <em>SOLD OUT</em></li>
+										<li class="active">General Sale <em>$85</em></li>
+										<li>Last Call <em>$100</em></li>
+									</ul>
+								</li>
+								<li class="unlocked"><p class="copy"><span>💅</span> Reserved seat within the pavilion</p></li>
+								<li class="unlocked"><p class="copy"><span>🍴</span> Access to exclusive VIP deck with cash bar and food items</p></li>
+								<li class="unlocked">
+									<p class="copy"><span>➕</span> <strong>Plus, everything included with the <span class="nobr">Pavilion & Lawn ticket</span></strong></p>
+									<button class="cta">Show Included Features</button>
+								</li>
+								<li class="included"><p class="copy"><span>🤩</span> Access to Pavilion and front of stage pit viewing area</p></li>
+								<li class="included"><p class="copy"><span>🎫</span> Access to GA seats within the pavilion</p></li>
+								<li class="included"><p class="copy"><span>🎟️</span> Access to GA seats on the lawn</p></li>
+								<li class="included"><p class="copy"><span>🤘</span> Access to two festival stages with artist performances</p></li>
+								<li class="included"><p class="copy"><span>🎨</span> Access to interactive festival art installations, activations, and 9:32 Club</p></li>
+								<li class="included"><p class="copy"><span>🌱</span> Access to SkyLawn</p></li>
+								<li class="included"><p class="copy"><span>🍹</span> Cash bar and beer garden with craft cocktails, wine, and beer (for attendees 21 and up)</p></li>
+								<li class="included"><p class="copy"><span>🥕</span> Variety of curated food choices including vegan, vegetarian and gluten-free options</p></li>
+								<li class="included"><p class="copy"><span>💧</span> Water stations with free refills</p></li>
+								<li class="included"><p class="copy"><span>🚽</span> Real bathrooms (not porta potties)</p></li>
+								<li class="included"><p class="copy"><span>🚗</span> Free parking!</p></li>
+							</ul>
+						</div>
+					</li>
+					<li class="ticket vipss chamfered-box">
+						<div class="cb-content">
+							<div class="tt-summary">
+								<h4>VIP Super Suite</h4>
+								<a class="cta cta-big-1200 cta-inverted cta-special" href="https://www.google.com">Buy Tickets</a>
+								<p class="price copy">Starting at $00</p>
+								<button class="ticket-expose orn-tr orn-bl button button-icon-md button-on-bg-med"><span class="visually-hidden">Details</span><svg class="grad-star-pink-dark" aria-labelledby="title" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Exposure plus sign</title><path fill-rule="evenodd" clip-rule="evenodd" d="M17.8177 14.8636C17.572 14.8482 17.374 14.6563 17.3511 14.4112L16.7925 8.45333C16.7684 8.19639 16.5527 8 16.2947 8H15.7053C15.4473 8 15.2316 8.19639 15.2075 8.45333L14.6489 14.4112C14.626 14.6563 14.428 14.8482 14.1823 14.8636L8.46881 15.2207C8.20529 15.2372 8 15.4557 8 15.7197V16.2803C8 16.5443 8.20529 16.7628 8.46881 16.7793L14.1823 17.1364C14.428 17.1518 14.626 17.3437 14.6489 17.5888L15.2075 23.5467C15.2316 23.8036 15.4473 24 15.7053 24H16.2947C16.5527 24 16.7684 23.8036 16.7925 23.5467L17.3511 17.5888C17.374 17.3437 17.572 17.1518 17.8177 17.1364L23.5312 16.7793C23.7947 16.7628 24 16.5443 24 16.2803V15.7197C24 15.4557 23.7947 15.2372 23.5312 15.2207L17.8177 14.8636Z"/><linearGradient id="gradStarPinkDark" gradientTransform="rotate(135)"><stop offset="00%" /><stop offset="100%" /></linearGradient></svg></button>
+							</div>
+							<ul class="features">
+								<li class="price-range">
+									<ul class="pr-ul">
+										<li>Pre-sale <em>SOLD OUT</em></li>
+										<li class="active">General Sale <em>$85</em></li>
+										<li>Last Call <em>$100</em></li>
+									</ul>
+								</li>
+								<li class="unlocked"><p class="copy"><span>✨</span> Access to exclusive VIP Suite</p></li>
+								<li class="unlocked"><p class="copy"><span>🌈</span> Access to an elevated, unobstructed viewing balcony of the Pavilion Stage</p></li>
+								<li class="unlocked">
+									<p class="copy"><span>➕</span> <strong>Plus, everything included with the <span class="nobr">VIP ticket</span></strong></p>
+									<button class="cta">Show Included Features</button>
+								</li>
+								<li class="included"><p class="copy"><span>💅</span> Reserved seat within the pavilion</p></li>
+								<li class="included"><p class="copy"><span>🍴</span> Access to exclusive VIP deck with cash bar and food items</p></li>
+								<li class="included"><p class="copy"><span>🤩</span> Access to Pavilion and front of stage pit viewing area</p></li>
+								<li class="included"><p class="copy"><span>🎫</span> Access to GA seats within the pavilion</p></li>
+								<li class="included"><p class="copy"><span>🎟️</span> Access to GA seats on the lawn</p></li>
+								<li class="included"><p class="copy"><span>🤘</span> Access to two festival stages with artist performances</p></li>
+								<li class="included"><p class="copy"><span>🎨</span> Access to interactive festival art installations, activations, and 9:32 Club</p></li>
+								<li class="included"><p class="copy"><span>🌱</span> Access to SkyLawn</p></li>
+								<li class="included"><p class="copy"><span>🍹</span> Cash bar and beer garden with craft cocktails, wine, and beer (for attendees 21 and up)</p></li>
+								<li class="included"><p class="copy"><span>🥕</span> Variety of curated food choices including vegan, vegetarian and gluten-free options</p></li>
+								<li class="included"><p class="copy"><span>💧</span> Water stations with free refills</p></li>
+								<li class="included"><p class="copy"><span>🚽</span> Real bathrooms (not porta potties)</p></li>
+								<li class="included"><p class="copy"><span>🚗</span> Free parking!</p></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div id="tikSundayList" role="tabpanel" aria-labelledby="tikSundayTab" class="tab-panel">
+				<ul class="ticket-list">
+					<li class="ticket ga chamfered-box">
+						<div class="cb-content">
+							<div class="tt-summary">
+								<h4>General Admission</h4>
+								<a class="cta cta-big-1200 cta-inverted cta-special" href="https://www.google.com">Buy Tickets</a>
+								<p class="price copy">Starting at $00</p>
+								<button class="ticket-expose button button-icon-md button-on-bg-med"><span class="visually-hidden">Details</span><svg class="grad-star-pink" width="32" height="32" aria-labelledby="title" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Exposure plus sign</title><path fill-rule="evenodd" clip-rule="evenodd" d="M17.4392 15.045C17.1753 15.0367 16.9633 14.8247 16.955 14.5608L16.7651 8.48438C16.7567 8.21445 16.5354 8 16.2654 8H15.7346C15.4646 8 15.2433 8.21445 15.2349 8.48438L15.045 14.5608C15.0367 14.8247 14.8247 15.0367 14.5608 15.045L8.48438 15.2349C8.21445 15.2433 8 15.4646 8 15.7346V16.2654C8 16.5354 8.21445 16.7567 8.48438 16.7651L14.5608 16.955C14.8247 16.9633 15.0367 17.1753 15.045 17.4392L15.2349 23.5156C15.2433 23.7855 15.4646 24 15.7346 24H16.2654C16.5354 24 16.7567 23.7855 16.7651 23.5156L16.955 17.4392C16.9633 17.1753 17.1753 16.9633 17.4392 16.955L23.5156 16.7651C23.7855 16.7567 24 16.5354 24 16.2654V15.7346C24 15.4646 23.7855 15.2433 23.5156 15.2349L17.4392 15.045Z" fill="black"/><linearGradient id="gradStarPink" gradientTransform="rotate(135)"><stop offset="00%" /><stop offset="100%" /></linearGradient></svg></button>
+							</div>
+							<ul class="features">
+								<li class="price-range">
+									<ul class="pr-ul">
+										<li>Pre-sale <em>SOLD OUT</em></li>
+										<li class="active">General Sale <em>$85</em></li>
+										<li>Last Call <em>$100</em></li>
+									</ul>
+								</li>
+								<li class="unlocked"><p class="copy"><span>🎟️</span> Access to GA seats on the lawn</p></li>
+								<li class="unlocked"><p class="copy"><span>🤘</span> Access to two festival stages with artist performances</p></li>
+								<li class="unlocked"><p class="copy"><span>🎨</span> Access to interactive festival art installations, activations, and 9:32 Club</p></li>
+								<li class="unlocked"><p class="copy"><span>🌱</span> Access to SkyLawn</p></li>
+								<li class="unlocked"><p class="copy"><span>🍹</span> Cash bar and beer garden with craft cocktails, wine, and beer (for attendees 21 and up)</p></li>
+								<li class="unlocked"><p class="copy"><span>🥕</span> Variety of curated food choices including vegan, vegetarian and gluten-free options</p></li>
+								<li class="unlocked"><p class="copy"><span>💧</span> Water stations with free refills</p></li>
+								<li class="unlocked"><p class="copy"><span>🚽</span> Real bathrooms (not porta potties)</p></li>
+								<li class="unlocked"><p class="copy"><span>🚗</span> Free parking!</p></li>
+							</ul>
+						</div>
+					</li>
+					<li class="ticket pav chamfered-box">
+						<div class="cb-content">
+							<div class="tt-summary">
+								<h4>Pavilion & Lawn</h4>
+								<a class="cta cta-big-1200 cta-inverted cta-special" href="https://www.google.com">Buy Tickets</a>
+								<p class="price copy">Starting at $00</p>
+								<button class="ticket-expose button button-icon-md button-on-bg-med"><span class="visually-hidden">Details</span><svg class="grad-star-pink-light" aria-labelledby="title" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Exposure plus sign</title><path fill-rule="evenodd" clip-rule="evenodd" d="M17.8177 14.8636C17.572 14.8482 17.374 14.6563 17.3511 14.4112L16.7925 8.45333C16.7684 8.19639 16.5527 8 16.2947 8H15.7053C15.4473 8 15.2316 8.19639 15.2075 8.45333L14.6489 14.4112C14.626 14.6563 14.428 14.8482 14.1823 14.8636L8.46881 15.2207C8.20529 15.2372 8 15.4557 8 15.7197V16.2803C8 16.5443 8.20529 16.7628 8.46881 16.7793L14.1823 17.1364C14.428 17.1518 14.626 17.3437 14.6489 17.5888L15.2075 23.5467C15.2316 23.8036 15.4473 24 15.7053 24H16.2947C16.5527 24 16.7684 23.8036 16.7925 23.5467L17.3511 17.5888C17.374 17.3437 17.572 17.1518 17.8177 17.1364L23.5312 16.7793C23.7947 16.7628 24 16.5443 24 16.2803V15.7197C24 15.4557 23.7947 15.2372 23.5312 15.2207L17.8177 14.8636Z"/><linearGradient id="gradStarPinkLight" gradientTransform="rotate(135)"><stop offset="00%" /><stop offset="100%" /></linearGradient></svg></button>
+							</div>
+							<ul class="features">
+								<li class="price-range">
+									<ul class="pr-ul">
+										<li>Pre-sale <em>SOLD OUT</em></li>
+										<li class="active">General Sale <em>$85</em></li>
+										<li>Last Call <em>$100</em></li>
+									</ul>
+								</li>
+								<li class="unlocked"><p class="copy"><span>🤩</span> Access to Pavilion and front of stage pit viewing area</p></li>
+								<li class="unlocked"><p class="copy"><span>🎫</span> Access to GA seats within the pavilion</p></li>
+								<li class="unlocked">
+									<p class="copy"><span>➕</span> <strong>Plus, everything included with the <span class="nobr"> General Admission ticket</span></strong></p>
+									<button class="cta">Show Included Features</button>
+								</li>
+								<li class="included"><p class="copy"><span>🎟️</span> Access to GA seats on the lawn</p></li>
+								<li class="included"><p class="copy"><span>🤘</span> Access to two festival stages with artist performances</p></li>
+								<li class="included"><p class="copy"><span>🎨</span> Access to interactive festival art installations, activations, and 9:32 Club</p></li>
+								<li class="included"><p class="copy"><span>🌱</span> Access to SkyLawn</p></li>
+								<li class="included"><p class="copy"><span>🍹</span> Cash bar and beer garden with craft cocktails, wine, and beer (for attendees 21 and up)</p></li>
+								<li class="included"><p class="copy"><span>🥕</span> Variety of curated food choices including vegan, vegetarian and gluten-free options</p></li>
+								<li class="included"><p class="copy"><span>💧</span> Water stations with free refills</p></li>
+								<li class="included"><p class="copy"><span>🚽</span> Real bathrooms (not porta potties)</p></li>
+								<li class="included"><p class="copy"><span>🚗</span> Free parking!</p></li>
+							</ul>
+						</div>
+					</li>
+					<li class="ticket vip chamfered-box">
+						<div class="cb-content">
+							<div class="tt-summary">
+								<h4>VIP</h4>
+								<a class="cta cta-big-1200 cta-inverted cta-specialc disabled">Sold Out</a>
+								<p class="price copy">Starting at $00</p>
+								<button class="ticket-expose orn-tr button button-icon-md button-on-bg-med"><span class="visually-hidden">Details</span><svg class="grad-star-pink-dark" aria-labelledby="title" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Exposure plus sign</title><path fill-rule="evenodd" clip-rule="evenodd" d="M17.8177 14.8636C17.572 14.8482 17.374 14.6563 17.3511 14.4112L16.7925 8.45333C16.7684 8.19639 16.5527 8 16.2947 8H15.7053C15.4473 8 15.2316 8.19639 15.2075 8.45333L14.6489 14.4112C14.626 14.6563 14.428 14.8482 14.1823 14.8636L8.46881 15.2207C8.20529 15.2372 8 15.4557 8 15.7197V16.2803C8 16.5443 8.20529 16.7628 8.46881 16.7793L14.1823 17.1364C14.428 17.1518 14.626 17.3437 14.6489 17.5888L15.2075 23.5467C15.2316 23.8036 15.4473 24 15.7053 24H16.2947C16.5527 24 16.7684 23.8036 16.7925 23.5467L17.3511 17.5888C17.374 17.3437 17.572 17.1518 17.8177 17.1364L23.5312 16.7793C23.7947 16.7628 24 16.5443 24 16.2803V15.7197C24 15.4557 23.7947 15.2372 23.5312 15.2207L17.8177 14.8636Z"/><linearGradient id="gradStarPinkDark" gradientTransform="rotate(135)"><stop offset="00%" /><stop offset="100%" /></linearGradient></svg></button>
+							</div>
+							<ul class="features">
+								<li class="price-range">
+									<ul class="pr-ul">
+										<li>Pre-sale <em>SOLD OUT</em></li>
+										<li class="active">General Sale <em>$85</em></li>
+										<li>Last Call <em>$100</em></li>
+									</ul>
+								</li>
+								<li class="unlocked"><p class="copy"><span>💅</span> Reserved seat within the pavilion</p></li>
+								<li class="unlocked"><p class="copy"><span>🍴</span> Access to exclusive VIP deck with cash bar and food items</p></li>
+								<li class="unlocked">
+									<p class="copy"><span>➕</span> <strong>Plus, everything included with the <span class="nobr">Pavilion & Lawn ticket</span></strong></p>
+									<button class="cta">Show Included Features</button>
+								</li>
+								<li class="included"><p class="copy"><span>🤩</span> Access to Pavilion and front of stage pit viewing area</p></li>
+								<li class="included"><p class="copy"><span>🎫</span> Access to GA seats within the pavilion</p></li>
+								<li class="included"><p class="copy"><span>🎟️</span> Access to GA seats on the lawn</p></li>
+								<li class="included"><p class="copy"><span>🤘</span> Access to two festival stages with artist performances</p></li>
+								<li class="included"><p class="copy"><span>🎨</span> Access to interactive festival art installations, activations, and 9:32 Club</p></li>
+								<li class="included"><p class="copy"><span>🌱</span> Access to SkyLawn</p></li>
+								<li class="included"><p class="copy"><span>🍹</span> Cash bar and beer garden with craft cocktails, wine, and beer (for attendees 21 and up)</p></li>
+								<li class="included"><p class="copy"><span>🥕</span> Variety of curated food choices including vegan, vegetarian and gluten-free options</p></li>
+								<li class="included"><p class="copy"><span>💧</span> Water stations with free refills</p></li>
+								<li class="included"><p class="copy"><span>🚽</span> Real bathrooms (not porta potties)</p></li>
+								<li class="included"><p class="copy"><span>🚗</span> Free parking!</p></li>
+							</ul>
+						</div>
+					</li>
+					<li class="ticket vipss chamfered-box">
+						<div class="cb-content">
+							<div class="tt-summary">
+								<h4>VIP Super Suite</h4>
+								<a class="cta cta-big-1200 cta-inverted cta-special" href="https://www.google.com">Buy Tickets</a>
+								<p class="price copy">Starting at $00</p>
+								<button class="ticket-expose orn-tr orn-bl button button-icon-md button-on-bg-med"><span class="visually-hidden">Details</span><svg class="grad-star-pink-dark" aria-labelledby="title" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Exposure plus sign</title><path fill-rule="evenodd" clip-rule="evenodd" d="M17.8177 14.8636C17.572 14.8482 17.374 14.6563 17.3511 14.4112L16.7925 8.45333C16.7684 8.19639 16.5527 8 16.2947 8H15.7053C15.4473 8 15.2316 8.19639 15.2075 8.45333L14.6489 14.4112C14.626 14.6563 14.428 14.8482 14.1823 14.8636L8.46881 15.2207C8.20529 15.2372 8 15.4557 8 15.7197V16.2803C8 16.5443 8.20529 16.7628 8.46881 16.7793L14.1823 17.1364C14.428 17.1518 14.626 17.3437 14.6489 17.5888L15.2075 23.5467C15.2316 23.8036 15.4473 24 15.7053 24H16.2947C16.5527 24 16.7684 23.8036 16.7925 23.5467L17.3511 17.5888C17.374 17.3437 17.572 17.1518 17.8177 17.1364L23.5312 16.7793C23.7947 16.7628 24 16.5443 24 16.2803V15.7197C24 15.4557 23.7947 15.2372 23.5312 15.2207L17.8177 14.8636Z"/><linearGradient id="gradStarPinkDark" gradientTransform="rotate(135)"><stop offset="00%" /><stop offset="100%" /></linearGradient></svg></button>
+							</div>
+							<ul class="features">
+								<li class="price-range">
+									<ul class="pr-ul">
+										<li>Pre-sale <em>SOLD OUT</em></li>
+										<li class="active">General Sale <em>$85</em></li>
+										<li>Last Call <em>$100</em></li>
+									</ul>
+								</li>
+								<li class="unlocked"><p class="copy"><span>✨</span> Access to exclusive VIP Suite</p></li>
+								<li class="unlocked"><p class="copy"><span>🌈</span> Access to an elevated, unobstructed viewing balcony of the Pavilion Stage</p></li>
+								<li class="unlocked">
+									<p class="copy"><span>➕</span> <strong>Plus, everything included with the <span class="nobr">VIP ticket</span></strong></p>
+									<button class="cta">Show Included Features</button>
+								</li>
+								<li class="included"><p class="copy"><span>💅</span> Reserved seat within the pavilion</p></li>
+								<li class="included"><p class="copy"><span>🍴</span> Access to exclusive VIP deck with cash bar and food items</p></li>
+								<li class="included"><p class="copy"><span>🤩</span> Access to Pavilion and front of stage pit viewing area</p></li>
+								<li class="included"><p class="copy"><span>🎫</span> Access to GA seats within the pavilion</p></li>
+								<li class="included"><p class="copy"><span>🎟️</span> Access to GA seats on the lawn</p></li>
+								<li class="included"><p class="copy"><span>🤘</span> Access to two festival stages with artist performances</p></li>
+								<li class="included"><p class="copy"><span>🎨</span> Access to interactive festival art installations, activations, and 9:32 Club</p></li>
+								<li class="included"><p class="copy"><span>🌱</span> Access to SkyLawn</p></li>
+								<li class="included"><p class="copy"><span>🍹</span> Cash bar and beer garden with craft cocktails, wine, and beer (for attendees 21 and up)</p></li>
+								<li class="included"><p class="copy"><span>🥕</span> Variety of curated food choices including vegan, vegetarian and gluten-free options</p></li>
+								<li class="included"><p class="copy"><span>💧</span> Water stations with free refills</p></li>
+								<li class="included"><p class="copy"><span>🚽</span> Real bathrooms (not porta potties)</p></li>
+								<li class="included"><p class="copy"><span>🚗</span> Free parking!</p></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div id="tikTwoDayList" role="tabpanel" aria-labelledby="tikTwoDayTab" class="tab-panel">
+				<ul class="ticket-list">
+					<li class="ticket ga chamfered-box">
+						<div class="cb-content">
+							<div class="tt-summary">
+								<h4>General Admission</h4>
+								<a class="cta cta-big-1200 cta-inverted cta-special" href="https://www.google.com">Buy Tickets</a>
+								<p class="price copy">Starting at $00</p>
+								<button class="ticket-expose button button-icon-md button-on-bg-med"><span class="visually-hidden">Details</span><svg class="grad-star-pink" width="32" height="32" aria-labelledby="title" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Exposure plus sign</title><path fill-rule="evenodd" clip-rule="evenodd" d="M17.4392 15.045C17.1753 15.0367 16.9633 14.8247 16.955 14.5608L16.7651 8.48438C16.7567 8.21445 16.5354 8 16.2654 8H15.7346C15.4646 8 15.2433 8.21445 15.2349 8.48438L15.045 14.5608C15.0367 14.8247 14.8247 15.0367 14.5608 15.045L8.48438 15.2349C8.21445 15.2433 8 15.4646 8 15.7346V16.2654C8 16.5354 8.21445 16.7567 8.48438 16.7651L14.5608 16.955C14.8247 16.9633 15.0367 17.1753 15.045 17.4392L15.2349 23.5156C15.2433 23.7855 15.4646 24 15.7346 24H16.2654C16.5354 24 16.7567 23.7855 16.7651 23.5156L16.955 17.4392C16.9633 17.1753 17.1753 16.9633 17.4392 16.955L23.5156 16.7651C23.7855 16.7567 24 16.5354 24 16.2654V15.7346C24 15.4646 23.7855 15.2433 23.5156 15.2349L17.4392 15.045Z" fill="black"/><linearGradient id="gradStarPink" gradientTransform="rotate(135)"><stop offset="00%" /><stop offset="100%" /></linearGradient></svg></button>
+							</div>
+							<ul class="features">
+								<li class="price-range">
+									<ul class="pr-ul">
+										<li>Pre-sale <em>SOLD OUT</em></li>
+										<li class="active">General Sale <em>$85</em></li>
+										<li>Last Call <em>$100</em></li>
+									</ul>
+								</li>
+								<li class="unlocked"><p class="copy"><span>🎟️</span> Access to GA seats on the lawn</p></li>
+								<li class="unlocked"><p class="copy"><span>🤘</span> Access to two festival stages with artist performances</p></li>
+								<li class="unlocked"><p class="copy"><span>🎨</span> Access to interactive festival art installations, activations, and 9:32 Club</p></li>
+								<li class="unlocked"><p class="copy"><span>🌱</span> Access to SkyLawn</p></li>
+								<li class="unlocked"><p class="copy"><span>🍹</span> Cash bar and beer garden with craft cocktails, wine, and beer (for attendees 21 and up)</p></li>
+								<li class="unlocked"><p class="copy"><span>🥕</span> Variety of curated food choices including vegan, vegetarian and gluten-free options</p></li>
+								<li class="unlocked"><p class="copy"><span>💧</span> Water stations with free refills</p></li>
+								<li class="unlocked"><p class="copy"><span>🚽</span> Real bathrooms (not porta potties)</p></li>
+								<li class="unlocked"><p class="copy"><span>🚗</span> Free parking!</p></li>
+							</ul>
+						</div>
+					</li>
+					<li class="ticket pav chamfered-box">
+						<div class="cb-content">
+							<div class="tt-summary">
+								<h4>Pavilion & Lawn</h4>
+								<a class="cta cta-big-1200 cta-inverted cta-special" href="https://www.google.com">Buy Tickets</a>
+								<p class="price copy">Starting at $00</p>
+								<button class="ticket-expose button button-icon-md button-on-bg-med"><span class="visually-hidden">Details</span><svg class="grad-star-pink-light" aria-labelledby="title" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Exposure plus sign</title><path fill-rule="evenodd" clip-rule="evenodd" d="M17.8177 14.8636C17.572 14.8482 17.374 14.6563 17.3511 14.4112L16.7925 8.45333C16.7684 8.19639 16.5527 8 16.2947 8H15.7053C15.4473 8 15.2316 8.19639 15.2075 8.45333L14.6489 14.4112C14.626 14.6563 14.428 14.8482 14.1823 14.8636L8.46881 15.2207C8.20529 15.2372 8 15.4557 8 15.7197V16.2803C8 16.5443 8.20529 16.7628 8.46881 16.7793L14.1823 17.1364C14.428 17.1518 14.626 17.3437 14.6489 17.5888L15.2075 23.5467C15.2316 23.8036 15.4473 24 15.7053 24H16.2947C16.5527 24 16.7684 23.8036 16.7925 23.5467L17.3511 17.5888C17.374 17.3437 17.572 17.1518 17.8177 17.1364L23.5312 16.7793C23.7947 16.7628 24 16.5443 24 16.2803V15.7197C24 15.4557 23.7947 15.2372 23.5312 15.2207L17.8177 14.8636Z"/><linearGradient id="gradStarPinkLight" gradientTransform="rotate(135)"><stop offset="00%" /><stop offset="100%" /></linearGradient></svg></button>
+							</div>
+							<ul class="features">
+								<li class="price-range">
+									<ul class="pr-ul">
+										<li>Pre-sale <em>SOLD OUT</em></li>
+										<li class="active">General Sale <em>$85</em></li>
+										<li>Last Call <em>$100</em></li>
+									</ul>
+								</li>
+								<li class="unlocked"><p class="copy"><span>🤩</span> Access to Pavilion and front of stage pit viewing area</p></li>
+								<li class="unlocked"><p class="copy"><span>🎫</span> Access to GA seats within the pavilion</p></li>
+								<li class="unlocked">
+									<p class="copy"><span>➕</span> <strong>Plus, everything included with the <span class="nobr"> General Admission ticket</span></strong></p>
+									<button class="cta">Show Included Features</button>
+								</li>
+								<li class="included"><p class="copy"><span>🎟️</span> Access to GA seats on the lawn</p></li>
+								<li class="included"><p class="copy"><span>🤘</span> Access to two festival stages with artist performances</p></li>
+								<li class="included"><p class="copy"><span>🎨</span> Access to interactive festival art installations, activations, and 9:32 Club</p></li>
+								<li class="included"><p class="copy"><span>🌱</span> Access to SkyLawn</p></li>
+								<li class="included"><p class="copy"><span>🍹</span> Cash bar and beer garden with craft cocktails, wine, and beer (for attendees 21 and up)</p></li>
+								<li class="included"><p class="copy"><span>🥕</span> Variety of curated food choices including vegan, vegetarian and gluten-free options</p></li>
+								<li class="included"><p class="copy"><span>💧</span> Water stations with free refills</p></li>
+								<li class="included"><p class="copy"><span>🚽</span> Real bathrooms (not porta potties)</p></li>
+								<li class="included"><p class="copy"><span>🚗</span> Free parking!</p></li>
+							</ul>
+						</div>
+					</li>
+					<li class="ticket vip chamfered-box">
+						<div class="cb-content">
+							<div class="tt-summary">
+								<h4>VIP</h4>
+								<a class="cta cta-big-1200 cta-inverted cta-specialc disabled">Sold Out</a>
+								<p class="price copy">Starting at $00</p>
+								<button class="ticket-expose orn-tr button button-icon-md button-on-bg-med"><span class="visually-hidden">Details</span><svg class="grad-star-pink-dark" aria-labelledby="title" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Exposure plus sign</title><path fill-rule="evenodd" clip-rule="evenodd" d="M17.8177 14.8636C17.572 14.8482 17.374 14.6563 17.3511 14.4112L16.7925 8.45333C16.7684 8.19639 16.5527 8 16.2947 8H15.7053C15.4473 8 15.2316 8.19639 15.2075 8.45333L14.6489 14.4112C14.626 14.6563 14.428 14.8482 14.1823 14.8636L8.46881 15.2207C8.20529 15.2372 8 15.4557 8 15.7197V16.2803C8 16.5443 8.20529 16.7628 8.46881 16.7793L14.1823 17.1364C14.428 17.1518 14.626 17.3437 14.6489 17.5888L15.2075 23.5467C15.2316 23.8036 15.4473 24 15.7053 24H16.2947C16.5527 24 16.7684 23.8036 16.7925 23.5467L17.3511 17.5888C17.374 17.3437 17.572 17.1518 17.8177 17.1364L23.5312 16.7793C23.7947 16.7628 24 16.5443 24 16.2803V15.7197C24 15.4557 23.7947 15.2372 23.5312 15.2207L17.8177 14.8636Z"/><linearGradient id="gradStarPinkDark" gradientTransform="rotate(135)"><stop offset="00%" /><stop offset="100%" /></linearGradient></svg></button>
+							</div>
+							<ul class="features">
+								<li class="price-range">
+									<ul class="pr-ul">
+										<li>Pre-sale <em>SOLD OUT</em></li>
+										<li class="active">General Sale <em>$85</em></li>
+										<li>Last Call <em>$100</em></li>
+									</ul>
+								</li>
+								<li class="unlocked"><p class="copy"><span>💅</span> Reserved seat within the pavilion</p></li>
+								<li class="unlocked"><p class="copy"><span>🍴</span> Access to exclusive VIP deck with cash bar and food items</p></li>
+								<li class="unlocked">
+									<p class="copy"><span>➕</span> <strong>Plus, everything included with the <span class="nobr">Pavilion & Lawn ticket</span></strong></p>
+									<button class="cta">Show Included Features</button>
+								</li>
+								<li class="included"><p class="copy"><span>🤩</span> Access to Pavilion and front of stage pit viewing area</p></li>
+								<li class="included"><p class="copy"><span>🎫</span> Access to GA seats within the pavilion</p></li>
+								<li class="included"><p class="copy"><span>🎟️</span> Access to GA seats on the lawn</p></li>
+								<li class="included"><p class="copy"><span>🤘</span> Access to two festival stages with artist performances</p></li>
+								<li class="included"><p class="copy"><span>🎨</span> Access to interactive festival art installations, activations, and 9:32 Club</p></li>
+								<li class="included"><p class="copy"><span>🌱</span> Access to SkyLawn</p></li>
+								<li class="included"><p class="copy"><span>🍹</span> Cash bar and beer garden with craft cocktails, wine, and beer (for attendees 21 and up)</p></li>
+								<li class="included"><p class="copy"><span>🥕</span> Variety of curated food choices including vegan, vegetarian and gluten-free options</p></li>
+								<li class="included"><p class="copy"><span>💧</span> Water stations with free refills</p></li>
+								<li class="included"><p class="copy"><span>🚽</span> Real bathrooms (not porta potties)</p></li>
+								<li class="included"><p class="copy"><span>🚗</span> Free parking!</p></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<h3 class="header-strip text-center">Payment Plans available At Checkout</h3>
+	</section>
+	<section id="experience">
+		<header>
+			<video id="video" width="900" height="900" playsinline autoplay muted loop loading="lazy">
+				  <source src="vid/footage-placeholder.mp4" type="video/mp4">
+				  Your browser does not support the video tag.
+			</video>
+			<h2 class="chamfered-box autoscroll-container as-type-1">
+				<span class="cb-content autoscroller">
+					<span class="icon-sm"><svg width="32" height="16" class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+					<span>Experience</span>
+					<span class="icon-sm"><svg width="32" height="16" class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+					<span>Experience</span>
+					<span class="icon-sm"><svg width="32" height="16" class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+					<span>Experience</span>
+					<span class="icon-sm"><svg width="32" height="16" class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+					<span>Experience</span>
+					<span class="icon-sm"><svg width="32" height="16" class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+					<span>Experience</span>
+					<span class="icon-sm"><svg width="32" height="16" class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+					<span>Experience</span>
+					<span class="icon-sm"><svg width="32" height="16" class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+					<span>Experience</span>
+					<span class="icon-sm"><svg width="32" height="16" class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+					<span>Experience</span>
+					<span class="icon-sm"><svg width="32" height="16" class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+					<span>Experience</span>
+				</span>
+			</h2>
+		</header>
+		<div class="glass-content">
+			<ul class="list-big">
+				<li class="box-background bx-bg-1">
+					<div class="copy-container">
+						<h2 class="h1"><em>One</em> <span class="nobr">All Things Go</span> <em>Community</em></h2>
+						<p class="copy-lg">All Things Go is rooted in inclusive community experiences, and our mission is centered around building one-of-kind moments that fans can share and remember together.</p>
+						<a class="cta" href="#">Learn More</a>
+					</div>
+				</li>
+				<li class="box-background bx-bg-2">
+					<div class="copy-container">
+						<h2 class="h1">See You In <span class="nobr"><em>The Forest</em></span></h2>
+						<p class="copy-lg">Enjoy music, art, food, friends in the stunning forest setting of Merriweather's Chrysalis Stage.</p>
+						<!--<a class="cta" href="#">Learn More</a>-->
+					</div>
+				</li>
+				<li class="box-background bx-bg-3">
+					<div class="copy-container">
+						<h2 class="h1">Immersive <em>Art</em> <span class="nobr">& Interactive</span> <em>Activations</em></h2>
+						<p class="copy-lg">Get away from the everyday and have fun with friends at our festival photo booths, art installations and other activations.</p>
+						<!--<a class="cta" href="#">Learn More</a>-->
+					</div>
+				</li>
+				<li class="box-background bx-bg-4">
+					<div class="copy-container">
+						<h2 class="h1"><span class="nobr">New <em>Culinary</em></span> Offerings, <em>Beer Garden,</em> <span class="nobr">+ More</span></h2>
+						<p class="copy-lg">With a wide selection of local and international beers on tap, you’re sure to find just the right drink for you. Enjoy a brew with friends while vibing to your favorite music.</p>
+						<!--<a class="cta" href="#">Learn More</a>-->
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- <button id="sticky-local" class="cta cta-inverted cta-big"  data-modal-trigger="modalGettingThere" aria-haspopup="dialog" aria-controls="modalGettingThere" aria-expanded="false">
+			<svg class="dark-mode-invert" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.0613 23.7259C15.679 24.545 14.4923 24.4768 14.2064 23.6192L12.5868 18.7604C12.4873 18.4618 12.253 18.2275 11.9544 18.128L7.09561 16.5084C6.23801 16.2225 6.16977 15.0358 6.98895 14.6535L21.5075 7.87821C22.3538 7.48327 23.2315 8.36099 22.8366 9.20727L16.0613 23.7259Z" stroke="var(--white)" stroke-width="1.5"/></svg>
+			<span>Merriweather Post Pavilion</span>
+		</button> -->
+		<a class="cta cta-inverted cta-big cta-special cta-sticky-bottom scroll-top-fade" href="#tickets">Buy Tickets</a>
+	</section>
+	<section id="hp-bbaa" class="flex-col">
+		<div id="hp-bbaa-stickers">
+			<img id="hp-bbaa-stick-1" alt="A sticker of a lightning bolt" width="400" height="400" src="/bbaa/img/sticker-lightning.png">
+			<img id="hp-bbaa-stick-2" alt="A sticker of a star" width="400" height="400" src="/bbaa/img/sticker-star.png">
+			<img id="hp-bbaa-stick-3" alt="A sticker of a cloud" width="400" height="400" src="/bbaa/img/sticker-cloud.png">
+			<img id="hp-bbaa-stick-4" alt="A sticker of the letters V.I.P." width="400" height="400" src="/bbaa/img/sticker-vip.png">
+		</div>
+		<div class="content">
+			<header>
+				<h2 class="visually-hidden">Boomfy's Besties All Access</h2>
+				<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 227.67 160.07"><path class="d" d="M35.75,24.04c0-4.63-1.76-8.83-4.83-11.5-2.16-1.89-4.82-2.88-7.64-2.88-.54,0-1.09.04-1.64.11h0c-3.7.47-7.47.99-11.19,1.52C4.69,12.15,0,17.6,0,23.42v22.56c0,5.74,4.66,10.5,10.39,10.62,3.72.04,7.46.08,11.2.12,3.47.04,6.75-1.3,9.34-3.84,3.07-3.01,4.83-7.39,4.83-12.01,0-2.89-.69-5.69-2-8.07l-.13-.23.12-.24c1.31-2.53,2-5.39,2-8.29ZM21.6,42.17c-2.59.09-5.18.18-7.77.28l-.52.02v-1.63l.48-.02c2.59-.1,5.18-.2,7.77-.29.24,0,.41.07.57.22.16.15.25.37.25.59,0,.45-.35.82-.78.84ZM21.62,25.96c-2.59.21-5.18.43-7.77.66l-.54.05v-1.64l.46-.04c2.59-.23,5.18-.46,7.77-.67.21-.02.42.05.58.2.16.15.26.37.26.6,0,.44-.33.81-.76.85Z"/><path class="d" d="M65.65,14.4c-.19.44-.59.72-1.02.72,0,0,0,0-.01,0-.41,0-.79-.25-.98-.65-2.5-5.34-7.3-8.35-12.53-7.87-7.7.75-14.2,8.89-14.2,17.78v16.12c0,8.79,6.49,16.34,14.16,16.48,5.21.08,10.07-3.3,12.56-8.79.19-.43.58-.69,1.01-.69h0c.43,0,.81.26,1,.68,2.53,5.51,7.35,8.94,12.59,8.94h.03c3.19,0,6.22-1.34,8.76-3.88,3.4-3.39,5.43-8.56,5.43-13.84v-17.46c0-5.32-2.05-10.45-5.48-13.72-2.54-2.42-5.53-3.6-8.71-3.47-5.24.24-10.07,3.93-12.61,9.63ZM51.91,40.46c0,.46-.36.85-.79.85h-.02c-.19,0-.38-.08-.53-.22-.16-.16-.26-.38-.26-.62v-17.35c0-.46.34-.84.77-.86.2-.02.41.06.56.21.17.16.26.38.26.62v17.37ZM77.39,21.95c0-.47.34-.86.78-.87.2,0,.41.07.56.22.17.16.26.39.26.63v18.03c0,.47-.35.86-.8.86h-.01c-.2,0-.39-.08-.54-.22-.17-.16-.26-.39-.26-.63v-18.02Z"/><path class="d" d="M113.01,110.41c1.21,1.2,2.7,1.86,4.22,1.83,3.72-.02,6.74-3.78,6.74-8.38v-28.34l2.43-.02c3.75-.03,6.77-3.77,6.77-8.33,0-2.22-.71-4.31-2-5.87-1.27-1.53-2.95-2.38-4.73-2.38h0c-6.13,0-12.27.01-18.4,0h0c-1.78,0-3.46.85-4.73,2.39-1.29,1.57-2.01,3.66-2.01,5.89,0,4.58,3.02,8.31,6.74,8.33h2.46v28.39c0,2.53.92,4.89,2.52,6.48Z"/><path class="d" d="M141.52,58.88h-.01c-3.71,0-6.74,3.72-6.74,8.28v36.48c0,2.5.91,4.81,2.49,6.32,1.21,1.15,2.67,1.73,4.22,1.65,3.72-.17,6.75-4,6.75-8.53v-36.08c0-2.44-.89-4.72-2.45-6.27-1.2-1.2-2.71-1.85-4.27-1.85Z"/><path class="d" d="M207.84,7.11c0-.07,0-.14-.02-.21-.02-.07-.04-.14-.08-.2-.07-.13-.17-.27-.32-.32-3.87-1.4-5.7-3.39-6.48-5.86,0,0-.1-.45-.51-.51-.28-.04-.42.15-.58.33,0,0,0,0,0,0-2.16,2.5-4.97,3.42-8.16,3.64-.15.01-.26.11-.34.22-.2.28-.16.73.11,1.01.05.06.11.12.19.14,3.66,1.14,5.53,3.67,6.29,5.09,0,0,.2.37.54.41.34.04.61-.22.61-.22,1.55-1.26,3.13-2.47,8.28-2.95.31-.05.46-.34.47-.58Z"/><path class="d" d="M227.67,87.35c0-3.72-1.45-7.15-4.08-9.64-2.66-2.52-6.21-3.8-10-3.6-3.98.25-7.97.49-11.96.72-.21.01-.42-.06-.57-.21-.16-.15-.25-.37-.25-.6,0-.45.34-.82.77-.84,6.46-.35,12.99-.75,19.41-1.17,3.68-.26,6.68-3.5,6.68-7.21,0-1.79-.69-3.46-1.96-4.71-1.24-1.23-2.88-1.9-4.63-1.9h-.06c-6.46.09-12.93.18-19.41.25-7.83.04-14.19,7.36-14.19,16.32,0,4.71,1.78,9.01,4.89,11.81,2.57,2.31,5.85,3.39,9.24,3.03,3.99-.4,8.01-.82,11.95-1.26.03,0,.06,0,.09,0,.18,0,.36.07.5.19.17.15.26.36.27.59,0,.44-.33.81-.74.86-6.14.7-12.35,1.35-18.46,1.92-3.72.33-6.74,4.05-6.74,8.28,0,2.2.82,4.19,2.27,5.44,1.21,1.05,2.75,1.51,4.36,1.3,6.15-.82,12.35-1.73,18.43-2.72,7.82-1.35,14.19-8.9,14.19-16.81Z"/><path class="d" d="M76.41,111.11c6.03.37,12.16.65,18.22.83,3.21.11,6.39-1.19,8.92-3.63,3.4-3.29,5.34-8.23,5.34-13.56,0-9.61-6.41-17.49-14.28-17.58-3.97-.05-7.94-.11-11.91-.19-.44-.01-.79-.39-.79-.87,0-.25.1-.48.26-.64.15-.15.36-.21.55-.22,3.41.07,6.83.12,10.25.16,1.49,0,3.04-.62,4.23-1.79,1.59-1.57,2.5-3.9,2.5-6.41,0-4.57-3.02-8.29-6.74-8.3-3.42,0-6.83-.02-10.25-.04h0c-3.78,0-7.35,1.75-10.04,4.92-2.71,3.2-4.21,7.45-4.21,11.97,0,9.4,6.4,17.3,14.28,17.6,3.95.14,7.95.25,11.9.33.44.01.79.39.79.87,0,.24-.09.47-.26.64-.15.15-.34.23-.55.22-6.07-.13-12.21-.33-18.24-.59-.08,0-.15,0-.23,0-1.5,0-2.94.6-4.08,1.7-1.52,1.46-2.39,3.66-2.39,6.04,0,4.48,3.03,8.32,6.76,8.55Z"/><path class="d" d="M227.67,42.22c0-7.85-6.35-14.86-14.16-15.62-1.49-.13-2.98-.26-4.47-.38-.42-.04-.75-.4-.76-.84,0-.23.09-.45.25-.6.16-.15.37-.22.59-.2,1.99.17,3.99.35,5.98.53,1.74.15,3.39-.39,4.63-1.53,1.28-1.17,1.98-2.83,1.98-4.68,0-3.83-3.02-7.39-6.73-7.93-1.99-.28-3.98-.55-5.97-.81-4.32-.58-8.32,1.07-11,4.52l-.67.86-.22-1.06c-.34-1.63-1.12-3.12-2.27-4.31-1.46-1.51-3.34-2.32-5.21-2.23-1.64.08-3.12.87-4.18,2.22-2.3,2.93-4.72,6.07-7.19,9.33l-.5.65-.35-.74c-.64-1.33-1.38-2.62-2.21-3.83-4.22-6.15-10.31-9.9-16.71-10.29l-.48-.03c-3.01-.18-6.02-.35-9.03-.49-.19,0-.38-.01-.58-.01-3.04,0-5.99,1.23-8.37,3.49-3.37,3.2-5.3,8.06-5.3,13.34v27.36c0,2.49.9,4.82,2.48,6.4,1.2,1.19,2.72,1.86,4.25,1.84,3.71-.02,6.73-3.69,6.73-8.18v-9.89h.51c3.21.05,6.43.1,9.64.16,1.53.03,3.12-.62,4.33-1.81,1.51-1.49,2.38-3.69,2.38-6.04,0-4.42-3.02-8.14-6.74-8.29-3.21-.12-6.42-.24-9.63-.33h-.48s0-.87,0-.87c0-.24.09-.47.26-.63.15-.15.35-.23.56-.22,3.01.09,6.03.2,9.04.32l.48.02c2.48.1,4.82,1.48,6.4,3.78,2.55,3.71,2.55,8.78,0,12.34-1.51,2.09-3.02,4.2-4.53,6.33-2.43,3.42-2.04,8.53.87,11.39,1.19,1.17,2.69,1.81,4.23,1.81h.03c1.98-.01,3.86-1.05,5.14-2.85,1.5-2.11,3.01-4.2,4.51-6.27,6.75-9.31,12.89-17.46,18.81-24.94l.97-1.23-.08,1.56c-.01.3-.03.61-.02.92,0,8.81,6.36,16.16,14.18,16.39l4.49.17c.43.02.77.38.78.82,0,.24-.09.45-.25.6-.15.15-.37.22-.57.22-9.2-.34-18.57-.64-27.84-.89-1.59-.07-3.13.57-4.34,1.75-1.49,1.45-2.35,3.59-2.35,5.87,0,2.29.86,4.44,2.35,5.92,1.21,1.2,2.79,1.85,4.35,1.83,9.3-.08,18.58-.17,27.84-.27,7.78-.17,14.11-6.63,14.11-14.42Z"/><path class="d" d="M35.75,91.05c-.05-2.78-.75-5.54-2.02-7.98l-.12-.24.13-.24c1.32-2.37,2.02-5.15,2.02-8.06,0-8.88-6.36-16.12-14.17-16.16h0c-3.74-.05-7.47-.09-11.2-.15h-.07c-2.74,0-5.31,1.06-7.26,2.99-1.96,1.95-3.05,4.55-3.05,7.33v22.56c0,5.83,4.7,11.41,10.46,12.43,3.68.62,7.45,1.23,11.19,1.79,3.45.55,6.77-.39,9.35-2.64,3.09-2.68,4.82-6.93,4.74-11.64ZM22.11,90.58c-.14.13-.32.2-.51.2-.03,0-.05,0-.08,0-2.49-.26-4.99-.54-7.47-.82-.42-.05-.74-.42-.74-.85v-.87l.56.06c2.59.29,5.17.57,7.77.84.42.04.75.42.75.85,0,.23-.1.45-.26.6ZM22.12,74.36c-.15.14-.33.21-.53.21-.01,0-.03,0-.04,0h-.25c-2.51-.16-5.02-.32-7.53-.48l-.47-.03v-1.63l.53.03c2.59.16,5.18.32,7.77.46.43.03.77.39.77.84,0,.23-.09.45-.25.6Z"/><path class="d" d="M51.16,109.06c3.38.34,6.82.67,10.21.95,1.55.13,3.06-.39,4.26-1.49,1.54-1.41,2.42-3.6,2.42-6,0-4.45-3.03-8.25-6.75-8.46-3.41-.2-6.82-.43-10.23-.67-.43-.03-.76-.41-.76-.86,0-.24.09-.47.26-.62.16-.15.38-.21.57-.21,3.4.24,6.81.46,10.21.66,1.56.09,3.07-.47,4.27-1.6,1.54-1.45,2.42-3.66,2.42-6.07,0-4.45-3.02-8.17-6.74-8.28-3.41-.11-6.82-.24-10.23-.38-.43-.02-.78-.39-.78-.86,0-.23.09-.46.25-.62.15-.15.34-.21.56-.22,3.36.13,6.71.25,10.06.36,1.55.08,3.08-.55,4.28-1.71,1.54-1.49,2.43-3.72,2.43-6.13,0-4.45-3.02-8.09-6.72-8.1-3.36-.02-6.71-.05-10.06-.08h-.02c-3.48,0-6.84,1.43-9.44,4.03-3.01,3.01-4.74,7.33-4.74,11.84,0,2.88.69,5.76,2.01,8.33l.12.24-.13.23c-1.31,2.39-2,5.17-2,8.04,0,8.9,6.4,16.83,14.26,17.68Z"/><path class="d" d="M180.15,75.89c-1.94.08-3.88.16-5.82.24-3.41.13-6.82.25-10.23.36-.2.01-.4-.07-.55-.21-.16-.16-.26-.38-.26-.62,0-.48.35-.86.79-.87,5.29-.16,10.69-.36,16.04-.58,3.71-.16,6.73-3.74,6.72-7.96,0-2.19-.83-4.28-2.28-5.72-1.21-1.21-2.77-1.87-4.39-1.87h-.03c-5.34.05-10.69.09-16.05.12-7.86.02-14.25,7.76-14.25,17.25,0,3.1.7,6.12,2.02,8.72l.11.22-.11.22c-1.32,2.7-2.02,5.77-2.02,8.86,0,5.19,1.91,9.91,5.24,12.97,2.54,2.33,5.72,3.45,8.97,3.18,5.31-.43,10.7-.94,16.02-1.52,3.72-.41,6.75-4.21,6.76-8.48,0-2.17-.82-4.18-2.25-5.51-1.22-1.13-2.79-1.7-4.42-1.57-5.29.4-10.69.76-16.04,1.06-.2.02-.4-.06-.56-.2-.17-.16-.27-.38-.27-.63,0-.47.34-.86.77-.88,3.41-.19,6.81-.4,10.22-.63,1.94-.13,3.88-.27,5.82-.41,3.72-.29,6.74-3.97,6.74-8.22,0-2.18-.82-4.23-2.26-5.61-1.22-1.17-2.78-1.77-4.42-1.72Z"/><path class="d" d="M125.29,57.19h0c4.33,0,7.86-4.33,7.87-9.64v-25.69c0-12.28-3.01-17.8-9.76-17.91-.04,0-.08,0-.12,0-7.26,0-9.11,7.37-9.19,7.69l-.11.45-.4-.06-.36.03-.11-.41c-.2-.79-2.17-7.69-8.82-7.69-.04,0-.08,0-.11,0-6.82.11-10.14,5.97-10.14,17.91v25.68c0,5.3,3.53,9.63,7.87,9.64h.22c2.21,0,4.24-1.09,5.74-3.07,2-2.65,2.64-6.4,1.67-9.8l-.85-2.98c-.52-1.82-1.24-3.65-2.26-5.77-.76-1.58-1.17-3.37-1.17-5.2v-.18c0-.24.09-.47.25-.64.15-.15.35-.24.56-.23.19,0,.39.08.53.22.17.16.26.4.26.64,0,.35.13,8.67,6.74,8.67h0c6.54,0,6.73-8.45,6.74-8.81h0v-.09c.03-.21.12-.4.26-.55.15-.15.34-.23.54-.23h0c.21,0,.4.08.55.24.16.16.25.4.25.64v.51c0,1.64-.34,3.26-.98,4.7-1.24,2.81-2.1,5.21-2.71,7.55l-.46,1.78c-.87,3.37-.18,7.05,1.81,9.62,1.49,1.93,3.51,2.99,5.67,2.99Z"/><path class="d" d="M169.12,125.4H58.54c-9.56,0-17.33,7.78-17.33,17.33s7.78,17.33,17.33,17.33h110.58c9.56,0,17.33-7.78,17.33-17.33s-7.78-17.33-17.33-17.33ZM169.12,158.73H58.54c-8.82,0-16-7.18-16-16s7.18-16,16-16h110.58c8.82,0,16,7.18,16,16s-7.18,16-16,16Z"/><path class="d" d="M66.64,137.2c-.15-.45-.47-.67-.95-.67h-2.3c-.48,0-.8.22-.95.67l-3.72,10.05c-.25.65-.03.95.67.95h1.25c.48,0,.8-.22.95-.67l.23-.65c.15-.45.47-.67.95-.67h3.47c.5,0,.8.22.95.68l.22.62c.15.47.45.68.95.68h1.27c.7,0,.92-.3.68-.95l-3.67-10.05ZM65.14,143.8h-1.22c-.6,0-.88-.4-.68-.95l.75-2.08c.27-.72.82-.72,1.08.02l.73,2.07c.2.55-.07.95-.67.95Z"/><path class="d" d="M79.84,145.54l-3.7.02c-.53,0-.83-.3-.83-.83v-7.35c0-.53-.3-.83-.83-.83h-1.25c-.53,0-.83.3-.83.83v10c0,.53.3.83.83.83h6.6c.53,0,.82-.28.83-.83l.02-1c.02-.53-.3-.83-.83-.83Z"/><path class="d" d="M90.59,145.54l-3.7.02c-.53,0-.83-.3-.83-.83v-7.35c0-.53-.3-.83-.83-.83h-1.25c-.53,0-.83.3-.83.83v10c0,.53.3.83.83.83h6.6c.53,0,.82-.28.83-.83l.02-1c.02-.53-.3-.83-.83-.83Z"/><path class="d" d="M105.49,137.2c-.15-.45-.47-.67-.95-.67h-2.3c-.48,0-.8.22-.95.67l-3.72,10.05c-.25.65-.03.95.67.95h1.25c.48,0,.8-.22.95-.67l.23-.65c.15-.45.47-.67.95-.67h3.47c.5,0,.8.22.95.68l.22.62c.15.47.45.68.95.68h1.27c.7,0,.92-.3.68-.95l-3.67-10.05ZM103.99,143.8h-1.22c-.6,0-.88-.4-.68-.95l.75-2.08c.27-.72.82-.72,1.08.02l.73,2.07c.2.55-.07.95-.67.95Z"/><path class="d" d="M115.96,139.04c.98,0,1.72.42,2.12,1.17.23.43.48.67.97.67h1.3c.58,0,.9-.35.73-.92-.65-2.22-2.52-3.58-5.12-3.58-3.35,0-5.57,2.17-5.57,5.98s2.08,6.02,5.48,6.02c2.53,0,4.52-1.27,5.2-3.57.17-.57-.15-.92-.73-.92h-1.32c-.48,0-.73.23-.95.67-.38.73-1.13,1.15-2.12,1.15-1.75,0-2.68-1.18-2.68-3.33s.93-3.33,2.68-3.33Z"/><path class="d" d="M128.64,139.04c.98,0,1.72.42,2.12,1.17.23.43.48.67.97.67h1.3c.58,0,.9-.35.73-.92-.65-2.22-2.52-3.58-5.12-3.58-3.35,0-5.57,2.17-5.57,5.98s2.08,6.02,5.48,6.02c2.53,0,4.52-1.27,5.2-3.57.17-.57-.15-.92-.73-.92h-1.32c-.48,0-.73.23-.95.67-.38.73-1.13,1.15-2.12,1.15-1.75,0-2.68-1.18-2.68-3.33s.93-3.33,2.68-3.33Z"/><path class="d" d="M139.89,139.2l4.92.02c.53,0,.85-.3.83-.83l-.02-1.02c-.02-.55-.3-.83-.83-.83h-7.65c-.53,0-.83.3-.83.83v10c0,.53.3.83.83.83h7.65c.53,0,.82-.28.83-.83l.02-1c.02-.53-.3-.83-.83-.83l-4.92.02c-.53,0-.83-.3-.83-.83v-.28c0-.53.3-.83.83-.83l3.75.02c.53,0,.85-.3.83-.83l-.02-.83c-.02-.55-.3-.83-.83-.83h-3.73c-.53,0-.83-.3-.83-.83v-.25c0-.53.3-.83.83-.83Z"/><path class="d" d="M153.19,141.19l-1.33-.25c-1.05-.15-1.55-.48-1.55-1.02,0-.62.63-.97,1.75-.97.73,0,1.4.23,1.87.63.17.13.35.35.8.35h1.38c.45,0,.73-.32.6-.83-.5-1.63-2.33-2.73-4.57-2.73-2.83,0-4.72,1.47-4.72,3.65,0,1.87,1.17,3.1,3.8,3.55l1.25.22c1.15.18,1.68.5,1.68,1.03,0,.62-.7.97-1.93.97-.77,0-1.47-.22-1.95-.58-.15-.12-.33-.32-.78-.32h-1.5c-.43,0-.73.33-.58.85.52,1.58,2.43,2.63,4.77,2.63,2.92,0,4.87-1.48,4.87-3.7,0-1.9-1.23-3.02-3.85-3.48Z"/><path class="d" d="M164.72,141.19l-1.33-.25c-1.05-.15-1.55-.48-1.55-1.02,0-.62.63-.97,1.75-.97.73,0,1.4.23,1.87.63.17.13.35.35.8.35h1.38c.45,0,.73-.32.6-.83-.5-1.63-2.33-2.73-4.57-2.73-2.83,0-4.72,1.47-4.72,3.65,0,1.87,1.17,3.1,3.8,3.55l1.25.22c1.15.18,1.68.5,1.68,1.03,0,.62-.7.97-1.93.97-.77,0-1.47-.22-1.95-.58-.15-.12-.33-.32-.78-.32h-1.5c-.43,0-.73.33-.58.85.52,1.58,2.43,2.63,4.77,2.63,2.92,0,4.87-1.48,4.87-3.7,0-1.9-1.23-3.02-3.85-3.48Z"/></svg> -->
+				<spline-viewer id="bbaawordmark" class="light-mode-only" loading-anim-type="spinner-small-light" url="https://prod.spline.design/f0pRxgSUXJnM9Str/scene.splinecode"></spline-viewer>
+				<!-- <svg viewBox="0 0 128 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M116.851 3.98915C116.851 3.95166 116.851 3.91419 116.84 3.87671L116.84 3.87663C116.829 3.8373 116.817 3.79797 116.795 3.76426C116.756 3.69117 116.699 3.61246 116.615 3.58435C114.439 2.79725 113.41 1.67844 112.972 0.289759C112.972 0.289759 112.916 0.0367617 112.685 0.00302868C112.54 -0.0177108 112.462 0.0715262 112.38 0.164908L112.38 0.16493L112.359 0.18856C111.145 1.5941 109.565 2.11134 107.771 2.23503C107.687 2.24065 107.625 2.29688 107.58 2.35872C107.468 2.51614 107.49 2.76914 107.642 2.92656C107.67 2.96029 107.704 2.99402 107.749 3.00527C109.807 3.6462 110.858 5.06861 111.285 5.86695C111.285 5.86695 111.398 6.07498 111.589 6.09746C111.78 6.11995 111.932 5.97378 111.932 5.97378C112.803 5.26538 113.692 4.5851 116.587 4.31523C116.761 4.28712 116.846 4.12408 116.851 3.98915ZM36.3361 8.49823C36.5779 8.49823 36.8028 8.34081 36.9096 8.09344V8.08219C38.3376 4.87756 41.0531 2.80297 43.9991 2.66804C45.787 2.59495 47.468 3.25837 48.8961 4.61894C50.8245 6.45739 51.977 9.34156 51.977 12.3326V22.1489C51.977 25.1174 50.8357 28.024 48.9242 29.93C47.4961 31.358 45.7926 32.1114 43.9991 32.1114H43.9823C41.0363 32.1114 38.3264 30.183 36.904 27.0851C36.7971 26.849 36.5835 26.7028 36.3417 26.7028C36.1 26.7028 35.8807 26.849 35.7739 27.0908C34.374 30.1773 31.6416 32.0776 28.7125 32.0326C24.4003 31.9539 20.7515 27.7092 20.7515 22.7673V13.7044C20.7515 8.70625 24.4059 4.12981 28.7349 3.70814C31.6753 3.43828 34.374 5.13055 35.7795 8.13279C35.8864 8.35768 36.1 8.49823 36.3305 8.49823H36.3361ZM28.7406 23.2227C28.9823 23.2227 29.1847 23.0034 29.1847 22.7448H29.1791V12.9791C29.1791 12.8442 29.1285 12.7205 29.0329 12.6305C28.9486 12.5462 28.8305 12.5012 28.7181 12.5125C28.4763 12.5237 28.2852 12.7374 28.2852 12.996V22.7504C28.2852 22.8854 28.3414 23.0091 28.4314 23.099C28.5157 23.1777 28.6225 23.2227 28.7293 23.2227H28.7406ZM43.9485 11.849C43.7012 11.8547 43.51 12.0739 43.51 12.3382H43.5044V22.4693C43.5044 22.6043 43.555 22.7336 43.6506 22.8235C43.7349 22.9022 43.8417 22.9472 43.9542 22.9472H43.9598C44.2128 22.9472 44.4096 22.728 44.4096 22.4637V12.3269C44.4096 12.192 44.359 12.0627 44.2634 11.9727C44.1791 11.8884 44.061 11.849 43.9485 11.849ZM17.3838 7.04741C19.1098 8.54853 20.0993 10.9098 20.0993 13.5129C20.0993 15.1433 19.7113 16.7513 18.9748 18.1737L18.9074 18.3086L18.9805 18.4379C19.717 19.776 20.1049 21.3502 20.1049 22.975C20.1049 25.5725 19.1154 28.035 17.3894 29.7273C15.9332 31.1553 14.0892 31.9087 12.1383 31.8862L5.84144 31.8187C2.61993 31.7512 0 29.0751 0 25.848V13.1643C0 9.89223 2.6368 6.82814 5.87517 6.34464C7.96662 6.04666 10.0862 5.75431 12.1664 5.49007C12.4756 5.45071 12.7848 5.42822 13.0884 5.42822C14.6739 5.42822 16.1694 5.98482 17.3838 7.04741ZM12.1439 23.7059H12.1439V23.7115C12.3856 23.7003 12.5824 23.4923 12.5824 23.2393C12.5824 23.1156 12.5318 22.9919 12.4419 22.9076C12.3519 22.8232 12.2563 22.7839 12.1214 22.7839C10.666 22.8344 9.21068 22.8907 7.75531 22.9469H7.75527H7.75523H7.75519H7.75514H7.7551H7.75506H7.75501H7.75497H7.75493H7.75489H7.75484H7.7548H7.75476H7.75471H7.75467H7.75463H7.75458H7.75454H7.7545H7.75446L7.75298 22.9469L7.48311 22.9582V23.8746L7.77546 23.8633C9.23143 23.8071 10.6874 23.7565 12.1434 23.7059H12.1434H12.1434H12.1434H12.1435H12.1435H12.1435H12.1435H12.1436H12.1436H12.1436H12.1436H12.1437H12.1437H12.1437H12.1437H12.1438H12.1438H12.1438H12.1438H12.1439ZM7.78671 14.9634C9.24285 14.8341 10.699 14.7104 12.1551 14.5924V14.598C12.3969 14.5755 12.5824 14.3675 12.5824 14.1201C12.5824 13.9908 12.5262 13.8671 12.4362 13.7828C12.3463 13.6984 12.2282 13.6591 12.1102 13.6703C10.654 13.7884 9.19787 13.9177 7.74173 14.047L7.48311 14.0695V14.9915L7.78671 14.9634ZM63.5362 62.0716C64.2165 62.7463 65.0542 63.1173 65.9088 63.1005C68.0002 63.0892 69.6981 60.9753 69.6981 58.3891V42.4559L71.0643 42.4446C73.1726 42.4277 74.8705 40.3251 74.8705 37.7613C74.8705 36.5132 74.4713 35.3382 73.7461 34.4611C73.032 33.6009 72.0875 33.123 71.0868 33.123C69.9411 33.123 68.7947 33.1237 67.6482 33.1243H67.6476H67.647H67.6463H67.6457H67.6451H67.6445H67.6439H67.6433H67.6426H67.642H67.6414H67.6408H67.6402H67.6395H67.6349C65.337 33.1255 63.0382 33.1268 60.742 33.123C59.7412 33.123 58.7967 33.6009 58.0827 34.4667C57.3574 35.3494 56.9526 36.5245 56.9526 37.7782C56.9526 40.3532 58.6505 42.4502 60.742 42.4615H62.125V58.4228C62.125 59.8452 62.6423 61.1721 63.5418 62.066L63.5362 62.0716ZM75.77 37.7557C75.77 35.192 77.4735 33.1006 79.5594 33.1006C80.4364 33.1006 81.2854 33.466 81.96 34.1407C82.8371 35.0121 83.3375 36.294 83.3375 37.6658V57.9506C83.3375 60.4974 81.6339 62.6507 79.5425 62.7463C78.6711 62.7913 77.8502 62.4652 77.1699 61.8186C76.2816 60.9697 75.77 59.671 75.77 58.2654V37.7557ZM125.706 43.6874C127.185 45.0873 128 47.0157 128 49.1071V49.1296C128 53.5768 124.419 57.8215 120.022 58.5805C116.604 59.1371 113.118 59.6487 109.66 60.1097C108.755 60.2278 107.889 59.9692 107.209 59.3789C106.394 58.6761 105.933 57.5573 105.933 56.3204C105.933 53.9422 107.631 51.8508 109.722 51.6652C113.157 51.3448 116.649 50.9793 120.101 50.5858C120.331 50.5577 120.517 50.3496 120.517 50.1023C120.511 49.973 120.461 49.8549 120.365 49.7706C120.286 49.7031 120.185 49.6637 120.084 49.6637H120.033C117.818 49.9111 115.558 50.1472 113.315 50.3721C111.409 50.5745 109.565 49.9673 108.12 48.6686C106.371 47.0944 105.371 44.6769 105.371 42.0288C105.371 36.9914 108.946 32.8759 113.349 32.8534C116.992 32.8141 120.629 32.7635 124.261 32.7129H124.295C125.279 32.7129 126.201 33.0896 126.898 33.7811C127.612 34.4839 128 35.4228 128 36.4291C128 38.515 126.313 40.3366 124.244 40.4827C120.635 40.7189 116.964 40.9438 113.332 41.1405C113.09 41.1518 112.899 41.3598 112.899 41.6128C112.899 41.7421 112.949 41.8658 113.039 41.9501C113.124 42.0345 113.242 42.0738 113.36 42.0682C115.603 41.9389 117.846 41.8039 120.084 41.6634C122.215 41.5509 124.211 42.2706 125.706 43.6874ZM42.959 62.4654C46.3492 62.6735 49.7956 62.8309 53.2026 62.9321C55.0073 62.9939 56.7952 62.263 58.2176 60.8912C60.1291 59.0415 61.2198 56.2642 61.2198 53.2676C61.2198 47.8647 57.616 43.4344 53.1914 43.3838C50.9594 43.3557 48.7274 43.3219 46.4954 43.277C46.248 43.2714 46.0512 43.0577 46.0512 42.7878C46.0512 42.6473 46.1074 42.518 46.1974 42.428C46.2817 42.3437 46.3998 42.31 46.5066 42.3043C48.4238 42.3437 50.3465 42.3718 52.2693 42.3943C53.107 42.3943 53.9785 42.0457 54.6475 41.3879C55.5414 40.5052 56.053 39.1953 56.053 37.7841C56.053 35.2148 54.3552 33.1233 52.2637 33.1177C50.3459 33.1177 48.4336 33.1065 46.5158 33.0953L46.501 33.0952C44.3758 33.0952 42.3687 34.0791 40.8563 35.8613C39.3327 37.6604 38.4894 40.0498 38.4894 42.5911C38.4894 47.8759 42.0876 52.3174 46.5178 52.4861C48.7386 52.5648 50.9875 52.6266 53.2082 52.6716C53.4556 52.6772 53.6524 52.8909 53.6524 53.1607C53.6524 53.2957 53.6018 53.425 53.5062 53.5206C53.4219 53.6049 53.3151 53.6499 53.197 53.6443C49.7843 53.5712 46.3323 53.4587 42.9421 53.3125H42.8128C41.9695 53.3125 41.1599 53.6499 40.519 54.2683C39.6644 55.0892 39.1753 56.326 39.1753 57.6641C39.1753 60.1828 40.8788 62.3418 42.9759 62.4711L42.959 62.4654ZM120.039 14.9524C124.43 15.3797 128 19.3208 128 23.7342L127.978 23.7511C127.978 28.1308 124.419 31.7627 120.045 31.8583C114.839 31.9145 109.621 31.9651 104.393 32.0101C103.515 32.0213 102.627 31.6559 101.947 30.9812C101.109 30.1491 100.626 28.9404 100.626 27.6529C100.626 26.371 101.109 25.1679 101.947 24.3527C102.627 23.6893 103.493 23.3295 104.387 23.3688C109.599 23.5094 114.867 23.678 120.039 23.8692C120.151 23.8692 120.275 23.8298 120.359 23.7455C120.449 23.6612 120.5 23.5431 120.5 23.4082C120.494 23.1608 120.303 22.9584 120.062 22.9471L117.537 22.8516C113.141 22.7223 109.565 18.59 109.565 13.6368C109.561 13.5047 109.566 13.3726 109.571 13.243C109.573 13.2016 109.575 13.1604 109.576 13.1196L109.621 12.2425L109.076 12.9341C105.747 17.1394 102.295 21.7215 98.5005 26.9558C97.6572 28.1195 96.8082 29.2946 95.9649 30.4809C95.2452 31.4928 94.1883 32.0776 93.0751 32.0832H93.0582C92.1924 32.0832 91.3491 31.7234 90.68 31.0656C89.044 29.4576 88.8247 26.5847 90.1909 24.6619C91.0399 23.4644 91.8888 22.2781 92.7378 21.1031C94.1714 19.1016 94.1714 16.2511 92.7378 14.1653C91.8494 12.8722 90.5339 12.0964 89.1396 12.0401L88.8697 12.0289C87.1774 11.9614 85.4795 11.8996 83.7873 11.849C83.6692 11.8434 83.5567 11.8883 83.4724 11.9727C83.3768 12.0626 83.3262 12.1919 83.3262 12.3269V12.816H83.5961C85.4008 12.8666 87.2055 12.9341 89.0101 13.0015L89.0103 13.0015C91.1017 13.0859 92.7996 15.1773 92.7996 17.6623C92.7996 18.9835 92.3105 20.2204 91.4615 21.0581C90.7812 21.7271 89.8873 22.0926 89.0271 22.0757C87.2497 22.0425 85.4668 22.0147 83.6891 21.987L83.6073 21.9858H83.3206V27.5461C83.3206 30.0704 81.6227 32.1338 79.5369 32.145C78.6767 32.1563 77.8221 31.7796 77.1475 31.1105C76.2592 30.2222 75.7532 28.9123 75.7532 27.5123V12.1301C75.7532 9.16158 76.8382 6.4292 78.7329 4.63011C80.071 3.3595 81.7295 2.66797 83.4387 2.66797C83.4956 2.66797 83.5511 2.66941 83.6059 2.67083C83.6593 2.67222 83.712 2.67359 83.7648 2.67359C85.457 2.7523 87.1493 2.84788 88.8416 2.94908L89.1115 2.96594C92.7096 3.18521 96.1336 5.29352 98.5061 8.75116C98.9727 9.43144 99.3888 10.1567 99.7486 10.9045L99.9454 11.3205L100.226 10.9551C101.615 9.12222 102.976 7.35686 104.269 5.70956C104.865 4.95057 105.697 4.50642 106.619 4.46144C107.67 4.41084 108.727 4.86624 109.548 5.71519C110.195 6.38422 110.633 7.22193 110.824 8.13834L110.948 8.73429L111.325 8.25079C112.831 6.31114 115.08 5.38348 117.509 5.70956C118.628 5.85574 119.747 6.00754 120.865 6.16496C122.951 6.46856 124.649 8.47005 124.649 10.6233C124.649 11.6634 124.256 12.5967 123.536 13.2545C122.839 13.8954 121.911 14.199 120.933 14.1147C119.814 14.0135 118.69 13.9123 117.571 13.8167C117.447 13.8055 117.329 13.8448 117.239 13.9292C117.149 14.0135 117.099 14.1372 117.099 14.2665C117.104 14.5139 117.29 14.7163 117.526 14.7388C118.363 14.8062 119.2 14.8792 120.037 14.9522L120.037 14.9522L120.037 14.9522L120.037 14.9522L120.037 14.9523L120.037 14.9523L120.037 14.9523L120.038 14.9523L120.038 14.9523L120.038 14.9523L120.038 14.9523L120.038 14.9523L120.038 14.9523L120.038 14.9524L120.038 14.9524L120.039 14.9524ZM20.0993 51.1871C20.0711 49.6241 19.6776 48.0724 18.9636 46.7006L18.8961 46.5657L18.9692 46.4307C19.7113 45.0983 20.1049 43.5353 20.1049 41.8993C20.1049 36.9068 16.5292 32.8363 12.1383 32.8138C11.4432 32.8045 10.7488 32.7959 10.0548 32.7872L10.0501 32.7871C8.64608 32.7696 7.24376 32.752 5.84143 32.7295H5.80207C4.2616 32.7295 2.8167 33.3254 1.72038 34.4105C0.618432 35.5068 0.00561523 36.9686 0.00561523 38.5316V51.2152C0.00561523 54.4929 2.64804 57.6301 5.88641 58.2036C7.95537 58.5521 10.0749 58.8951 12.1776 59.2099C14.1173 59.5191 15.9838 58.9907 17.4343 57.7257C19.1716 56.2189 20.1442 53.8295 20.0993 51.1815V51.1871ZM12.4306 50.9228C12.3519 50.9959 12.2507 51.0353 12.1439 51.0353H12.0989C10.699 50.8891 9.29344 50.7317 7.89915 50.5743C7.66301 50.5462 7.4831 50.3381 7.4831 50.0964V49.6073L7.79795 49.641C9.25409 49.804 10.7046 49.9614 12.1664 50.1132C12.4025 50.1357 12.588 50.3494 12.588 50.5911C12.588 50.7204 12.5318 50.8441 12.4419 50.9285L12.4306 50.9228ZM12.4362 41.8037C12.3519 41.8824 12.2507 41.9217 12.1383 41.9217H12.1158H11.9752L7.74172 41.6519L7.47748 41.635V40.7186L7.77546 40.7355C9.2316 40.8254 10.6877 40.9154 12.1439 40.9941C12.3856 41.011 12.5768 41.2134 12.5768 41.4663C12.5768 41.5957 12.5262 41.7193 12.4362 41.8037ZM34.5033 61.8471C32.5974 61.6897 30.6634 61.5042 28.7631 61.313H28.7575C24.3384 60.8352 20.7402 56.3768 20.7402 51.373C20.7402 49.7595 21.1282 48.1965 21.8647 46.8528L21.9378 46.7235L21.8703 46.5886C21.1282 45.1437 20.7402 43.5245 20.7402 41.9053C20.7402 39.3697 21.7129 36.9409 23.4051 35.2486C24.8669 33.7869 26.756 32.9829 28.7125 32.9829H28.7237L28.7275 32.9829C30.6097 32.9998 32.4918 33.0167 34.3796 33.0279C36.4598 33.0335 38.1577 35.08 38.1577 37.5818C38.1577 38.9368 37.6574 40.1905 36.7915 41.0282C36.1169 41.6804 35.2567 42.0346 34.3852 41.9896C32.5018 41.9278 30.6184 41.8603 28.7293 41.7872C28.6057 41.7929 28.4988 41.8266 28.4145 41.9109C28.3245 42.0009 28.2739 42.1302 28.2739 42.2595C28.2739 42.5237 28.4707 42.7318 28.7125 42.743C30.6296 42.8217 32.5468 42.8948 34.464 42.9566C36.5554 43.0185 38.2533 45.1099 38.2533 47.6118C38.2533 48.9667 37.7586 50.2092 36.8927 51.0245C36.2181 51.6598 35.3691 51.9746 34.4921 51.924C32.5805 51.8116 30.6634 51.6879 28.7518 51.5529C28.645 51.5529 28.5213 51.5867 28.4314 51.671C28.3358 51.7553 28.2852 51.8847 28.2852 52.0196C28.2852 52.2726 28.4707 52.4862 28.7125 52.5031C30.6296 52.638 32.5468 52.7673 34.464 52.8798C36.5554 52.9978 38.2589 55.1343 38.2589 57.6361C38.2589 58.9855 37.7642 60.2167 36.8984 61.0094C36.2237 61.6279 35.3747 61.9202 34.5033 61.8471ZM101.283 42.6641L98.0113 42.799C96.0942 42.8721 94.177 42.9395 92.2598 43.0014C92.1474 43.007 92.035 42.962 91.9506 42.8833C91.8607 42.7934 91.8044 42.6697 91.8044 42.5347C91.8044 42.2649 92.0012 42.0512 92.2486 42.0456C95.2227 41.9557 98.2587 41.8432 101.267 41.7195C103.352 41.6296 105.05 39.6168 105.045 37.2443C105.045 36.013 104.578 34.838 103.763 34.0284C103.083 33.3481 102.205 32.9771 101.295 32.9771H101.278C98.2756 33.0052 95.2677 33.0276 92.2542 33.0445C87.8352 33.0558 84.2426 37.4073 84.2426 42.7428C84.2426 44.4856 84.6362 46.1835 85.3783 47.6453L85.4401 47.769L85.3783 47.8927C84.6362 49.4107 84.2426 51.1367 84.2426 52.8739C84.2426 55.7918 85.3165 58.4455 87.1886 60.1659C88.6167 61.4758 90.4045 62.1055 92.2317 61.9537C95.2171 61.712 98.2475 61.4252 101.238 61.0992C103.33 60.8686 105.033 58.7322 105.039 56.3316C105.039 55.1115 104.578 53.9815 103.774 53.2337C103.088 52.5984 102.205 52.278 101.289 52.3511C98.3149 52.5759 95.2789 52.7783 92.2711 52.947C92.1586 52.9583 92.0462 52.9133 91.9562 52.8346C91.8607 52.7446 91.8044 52.6209 91.8044 52.4804C91.8044 52.2161 91.9956 51.9969 92.2373 51.9856C94.1545 51.8788 96.066 51.7607 97.9832 51.6314C99.0739 51.5583 100.165 51.4796 101.255 51.4009C103.347 51.2379 105.045 49.1689 105.045 46.7795C105.045 45.5538 104.584 44.4013 103.774 43.6254C103.088 42.9677 102.211 42.6303 101.289 42.6584L101.283 42.6641ZM74.8649 26.7309C74.8592 29.7163 72.8746 32.1507 70.4402 32.1507L70.429 32.1563C69.2146 32.1563 68.0789 31.5604 67.2412 30.4753C66.1224 29.0304 65.7344 26.9614 66.2236 25.0668L66.4822 24.066C66.8251 22.7504 67.3086 21.4011 68.0058 19.8213C68.3656 19.0117 68.5568 18.1009 68.5568 17.1789V16.8921C68.5568 16.7572 68.5062 16.6223 68.4162 16.5323C68.3319 16.4424 68.2251 16.3974 68.107 16.3974C67.9946 16.3974 67.8877 16.4424 67.8034 16.5267C67.7247 16.611 67.6741 16.7178 67.6572 16.8359V16.8865L67.6571 16.8906C67.6502 17.1454 67.5229 21.8396 63.8679 21.8396C60.1516 21.8396 60.0785 17.162 60.0785 16.9652C60.0785 16.8303 60.0279 16.6954 59.9324 16.6054C59.8536 16.5267 59.7412 16.4817 59.6344 16.4817C59.5163 16.4761 59.4039 16.5267 59.3195 16.611C59.2296 16.7066 59.179 16.8359 59.179 16.9708V17.072C59.179 18.1009 59.4095 19.1073 59.8368 19.9956C60.4102 21.1875 60.815 22.2163 61.1074 23.2396L61.5853 24.915C62.1306 26.8265 61.7708 28.9348 60.6464 30.4247C59.8031 31.5379 58.6617 32.1507 57.4192 32.1507H57.2956C54.8555 32.1451 52.8709 29.7107 52.8709 26.7309V12.2932C52.8709 5.58032 54.7375 2.28573 58.5718 2.22388H58.6336C62.3724 2.22388 63.4799 6.10318 63.5924 6.54733L63.6542 6.77784L63.8566 6.76098L64.0815 6.79471L64.1434 6.54171C64.1883 6.3618 65.2284 2.21826 69.3101 2.21826H69.3776C73.1726 2.28011 74.8649 5.38354 74.8649 12.2876V26.7309ZM95.0822 70.4995H32.9122C27.5374 70.4995 23.1689 74.8736 23.1689 80.2427C23.1689 85.6119 27.543 89.986 32.9122 89.986H95.0822C100.457 89.986 104.825 85.6119 104.825 80.2427C104.825 74.8736 100.451 70.4995 95.0822 70.4995ZM95.0822 89.2382H32.9122C27.9534 89.2382 23.9167 85.2015 23.9167 80.2427C23.9167 75.284 27.9534 71.2473 32.9122 71.2473H95.0822C100.041 71.2473 104.078 75.284 104.078 80.2427C104.078 85.2015 100.041 89.2382 95.0822 89.2382ZM36.932 76.7568C37.2019 76.7568 37.3818 76.8805 37.4661 77.1335V77.1279L39.5295 82.7782C39.6644 83.1436 39.5407 83.3123 39.1472 83.3123H38.4331C38.152 83.3123 37.9834 83.1942 37.899 82.93L37.7753 82.5814C37.691 82.3228 37.5223 82.1991 37.2412 82.1991H35.2903C35.0205 82.1991 34.8406 82.3228 34.7562 82.5758L34.6269 82.9412C34.5426 83.1942 34.3627 83.3179 34.0928 83.3179H33.39C32.9965 83.3179 32.8728 83.1492 33.0134 82.7838L35.1048 77.1335C35.1891 76.8805 35.3691 76.7568 35.6389 76.7568H36.932ZM35.9369 80.8442H36.6228L36.6172 80.8498C36.9545 80.8498 37.1063 80.6249 36.9939 80.3157L36.5834 79.1519C36.4373 78.7358 36.128 78.7358 35.9762 79.1406L35.5546 80.3101C35.4421 80.6193 35.5996 80.8442 35.9369 80.8442ZM44.8875 81.8224L42.8073 81.8336C42.5093 81.8336 42.3406 81.665 42.3406 81.367V77.2347C42.3406 76.9367 42.172 76.7681 41.874 76.7681H41.1712C40.8733 76.7681 40.7046 76.9367 40.7046 77.2347V82.8569C40.7046 83.1549 40.8733 83.3235 41.1712 83.3235H44.8819C45.1798 83.3235 45.3429 83.1661 45.3485 82.8569L45.3597 82.2947C45.371 81.9967 45.1911 81.828 44.8931 81.828L44.8875 81.8224ZM48.8511 81.8336L50.9313 81.8224L50.9369 81.828C51.2349 81.828 51.4148 81.9967 51.4036 82.2947L51.3923 82.8569C51.3867 83.1661 51.2237 83.3235 50.9257 83.3235H47.2151C46.9171 83.3235 46.7484 83.1549 46.7484 82.8569V77.2347C46.7484 76.9367 46.9171 76.7681 47.2151 76.7681H47.9178C48.2158 76.7681 48.3845 76.9367 48.3845 77.2347V81.367C48.3845 81.665 48.5531 81.8336 48.8511 81.8336ZM59.3083 77.1335C59.224 76.8805 59.044 76.7568 58.7742 76.7568H57.4811C57.2112 76.7568 57.0313 76.8805 56.947 77.1335L54.8555 82.7838C54.715 83.1492 54.8387 83.3179 55.2322 83.3179H55.935C56.2048 83.3179 56.3848 83.1942 56.4691 82.9412L56.5984 82.5758C56.6827 82.3228 56.8626 82.1991 57.1325 82.1991H59.0834C59.3645 82.1991 59.5332 82.3228 59.6175 82.5814L59.7412 82.93C59.8255 83.1942 59.9942 83.3123 60.2753 83.3123H60.9893C61.3829 83.3123 61.5066 83.1436 61.3716 82.7782L59.3083 77.1279V77.1335ZM58.465 80.8442H57.7791C57.4417 80.8442 57.2843 80.6193 57.3967 80.3101L57.8184 79.1406C57.9702 78.7358 58.2794 78.7358 58.4256 79.1519L58.836 80.3157C58.9485 80.6249 58.7967 80.8498 58.4593 80.8498L58.465 80.8442ZM66.3866 78.8257C66.1617 78.404 65.7457 78.1679 65.1947 78.1679L65.1891 78.1735C64.2052 78.1735 63.6824 78.8369 63.6824 80.0457C63.6824 81.2544 64.2052 81.9179 65.1891 81.9179C65.7457 81.9179 66.1674 81.6817 66.381 81.2713C66.5047 81.0239 66.6452 80.8946 66.9151 80.8946H67.6572C67.9833 80.8946 68.1632 81.0914 68.0676 81.4118C67.6853 82.7049 66.5665 83.419 65.1441 83.419C63.2326 83.419 62.0632 82.1765 62.0632 80.0344C62.0632 77.8924 63.3113 76.6724 65.1947 76.6724C66.6565 76.6724 67.7078 77.437 68.0733 78.6851C68.1689 79.0056 67.9889 79.2023 67.6629 79.2023H66.932C66.6565 79.2023 66.5159 79.0674 66.3866 78.8257ZM72.3236 78.1679C72.8746 78.1679 73.2906 78.404 73.5155 78.8257C73.6448 79.0674 73.7854 79.2023 74.0609 79.2023H74.7918C75.1178 79.2023 75.2978 79.0056 75.2022 78.6851C74.8367 77.437 73.7854 76.6724 72.3236 76.6724C70.4402 76.6724 69.1921 77.8924 69.1921 80.0344C69.1921 82.1765 70.3615 83.419 72.273 83.419C73.6954 83.419 74.8142 82.7049 75.1966 81.4118C75.2921 81.0914 75.1122 80.8946 74.7861 80.8946H74.044C73.7741 80.8946 73.6336 81.0239 73.5099 81.2713C73.2963 81.6817 72.8746 81.9179 72.318 81.9179C71.3341 81.9179 70.8113 81.2544 70.8113 80.0457C70.8113 78.8369 71.3341 78.1735 72.318 78.1735L72.3236 78.1679ZM81.4147 78.2694L78.6486 78.2582V78.2807C78.3506 78.2807 78.182 78.4494 78.182 78.7473V78.8879C78.182 79.1859 78.3506 79.3545 78.6486 79.3545H80.7457C81.0436 79.3545 81.2011 79.5119 81.2123 79.8212L81.2236 80.2878C81.2348 80.5858 81.0549 80.7544 80.7569 80.7544L78.6486 80.7432C78.3506 80.7432 78.182 80.9119 78.182 81.2098V81.3673C78.182 81.6652 78.3506 81.8339 78.6486 81.8339L81.4147 81.8226C81.7127 81.8226 81.8926 81.9913 81.8814 82.2893L81.8701 82.8515C81.8645 83.1607 81.7014 83.3182 81.4035 83.3182H77.1025C76.8045 83.3182 76.6359 83.1495 76.6359 82.8515V77.2293C76.6359 76.9314 76.8045 76.7627 77.1025 76.7627H81.4035C81.7014 76.7627 81.8589 76.9201 81.8701 77.2293L81.8814 77.8028C81.8926 78.1008 81.7127 78.2694 81.4147 78.2694ZM86.126 79.3769L85.3783 79.2363C84.788 79.152 84.5069 78.9665 84.5069 78.6629C84.5069 78.3143 84.8611 78.1175 85.4907 78.1175C85.9012 78.1175 86.2778 78.2468 86.5421 78.4717C86.5568 78.4829 86.5716 78.4954 86.5871 78.5084L86.5873 78.5086C86.6726 78.5801 86.778 78.6685 86.9919 78.6685H87.7677C88.0207 78.6685 88.1781 78.4886 88.1051 78.2019C87.8239 77.2854 86.7951 76.667 85.5357 76.667C83.9446 76.667 82.882 77.4935 82.882 78.7191C82.882 79.7704 83.5398 80.462 85.0185 80.715L85.7213 80.8386C86.3678 80.9398 86.6658 81.1198 86.6658 81.4177C86.6658 81.7663 86.2722 81.9631 85.5807 81.9631C85.1478 81.9631 84.7542 81.8394 84.4844 81.637C84.4748 81.6293 84.465 81.6211 84.4548 81.6125C84.3751 81.5454 84.2701 81.4571 84.0458 81.4571H83.2025C82.9608 81.4571 82.7921 81.6426 82.8764 81.935C83.1688 82.8233 84.2426 83.4136 85.5582 83.4136C87.1999 83.4136 88.2962 82.5815 88.2962 81.3334C88.2962 80.2652 87.6047 79.6355 86.1317 79.3769H86.126ZM91.8607 79.2363L92.6084 79.3769H92.614C94.087 79.6355 94.7786 80.2652 94.7786 81.3334C94.7786 82.5815 93.6822 83.4136 92.0406 83.4136C90.725 83.4136 89.6511 82.8233 89.3588 81.935C89.2745 81.6426 89.4431 81.4571 89.6849 81.4571H90.5282C90.7525 81.4571 90.8574 81.5454 90.9371 81.6125C90.9473 81.6211 90.9572 81.6293 90.9667 81.637C91.2366 81.8394 91.6301 81.9631 92.0631 81.9631C92.7546 81.9631 93.1481 81.7663 93.1481 81.4177C93.1481 81.1198 92.8502 80.9398 92.2036 80.8386L91.5008 80.715C90.0222 80.462 89.3644 79.7704 89.3644 78.7191C89.3644 77.4935 90.427 76.667 92.0181 76.667C93.2774 76.667 94.3063 77.2854 94.5874 78.2019C94.6605 78.4886 94.5031 78.6685 94.2501 78.6685H93.4742C93.2603 78.6685 93.1549 78.5801 93.0697 78.5086C93.0541 78.4955 93.0392 78.483 93.0245 78.4717C92.7602 78.2468 92.3835 78.1175 91.9731 78.1175C91.3434 78.1175 90.9892 78.3143 90.9892 78.6629C90.9892 78.9665 91.2703 79.152 91.8607 79.2363Z" fill="url(#paint0_radial_989_3753)"/>
+					<defs>
+						<radialGradient id="paint0_radial_989_3753" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(64 30.5) rotate(90) scale(59.5 144.25)">
+							<stop stop-color="#FF8AA0"/>
+							<stop offset="0.714287" stop-color="#FEB991"/>
+							<stop offset="0.953782" stop-color="#F694A7"/>
+						</radialGradient>
+					</defs>
+				</svg> -->
+			</header>
+			<div>
+				<h3 class="h2">
+					<span class="nobr">First Look,</span>
+					<span class="nobr">Private Presale,</span>
+					<span class="nobr">Exclusive Merch</span>
+					<span class="nobr">& so much more!</span>
+				</h3>
+				<p class="copy-md"><strong>PLUS: <span class="nobr">Dear Besties Newsletter</span></strong><br>Get access to exclusive news, interviews, and deals delivered to your inbox.</p>
+			</div>
+			<footer>
+				<a class="cta cta-inverted cta-big cta-special" href="bbaa">Join Now!</a>
+				<p class="copy-sm">Get access to <span class="nobr">Private Festival Pre-sale!</span></p>
+			</footer>
+		</div>
+	</section>
+	<section id="merch" class="tri-above">
+		<h2 class="chamfered-box autoscroll-container as-type-1">
+			<span class="cb-content autoscroller">
+				<span>Merch</span>
+				<span class="icon-sm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+				<em class="outline">Merch</em>
+				<span class="icon-sm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+				<span>Merch</span>
+				<span class="icon-sm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+				<em class="outline">Merch</em>
+				<span class="icon-sm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+				<span>Merch</span>
+				<span class="icon-sm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+				<em class="outline">Merch</em>
+				<span class="icon-sm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32"><path d="M63.49,32c.33-.99.51-2.04.51-3.14,0-5.58-4.59-10.11-10.26-10.11-.03,0-.06,0-.08,0,.03-.43.07-.87.07-1.31C53.73,7.81,45.81,0,36.04,0c-7.56,0-13.99,4.68-16.53,11.25-1.58-.59-3.29-.93-5.08-.93C6.46,10.33,0,16.7,0,24.55c0,2.73.8,5.28,2.15,7.45h61.34Z"/></svg></span>
+			</span>
+		</h2>
+		<ul class="prod-scoller des-4">
+			<li class="product bbaa-exclusive highlight chamfered-box">
+				<div class="cb-content">
+					<picture>
+						<img alt="Boomfy's Besties Tote Bag" width="480" height="480" src="/img/merch/merch-1.png">
+					</picture>
+					<div class="copy-container">
+						<h3 class="product-name">Boomfy's Besties Tote Bag</h3>
+						<p class="product-description copy">Unpack the ATG magic with the official 2024 festival tote bag.</p>
+						<div class="buying">
+							<a class="cta" href="/bbaa/#bb-bmb">Learn More</a>
+							<p class="copy-sm"><strong>FREE</strong> w/<span class="nobr"> BBAA Membership</span></p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="product coming-soon chamfered-box">
+				<div class="cb-content">
+					<picture>
+						<img alt="2024 Festival Merch Placeholder" width="480" height="480" src="/img/merch/merch-0.png">
+					</picture>
+					<div class="copy-container">
+						<h3 class="product-name">2024 Festival Merch</h3>
+						<p class="product-description copy">Shirts, Hats, Posters and more coming soon!</p>
+						<div class="buying">
+							<a class="cta disabled">Coming Soon</a>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="product bbaa-exclusive chamfered-box">
+				<div class="cb-content">
+					<picture>
+						<img alt="Boomfy's Besties Enamel Pin" width="480" height="480" src="/img/merch/merch-2.png">
+					</picture>
+					<div class="copy-container">
+						<h3 class="product-name">Boomfy's Besties Enamel Pin</h3>
+						<p class="product-description copy">Pledge to Boomfy and receive our exclusive Besties pin!</p>
+						<div class="buying">
+							<a class="cta" href="/bbaa/#bb-bmb">Learn More</a>
+							<p class="copy-sm"><strong>FREE</strong> w/<span class="nobr"> BBAA Membership</span></p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="product bbaa-exclusive chamfered-box">
+				<div class="cb-content">
+					<picture>
+						<img alt="Boomfy's Besties Bracelets" width="480" height="480" src="/img/merch/merch-3.png">
+					</picture>
+					<div class="copy-container">
+						<h3 class="product-name">Boomfy's Besties Bracelets</h3>
+						<p class="product-description copy">Strengthen your bond with Boomfy through our Besties bracelets.</p>
+						<div class="buying">
+							<a class="cta" href="/bbaa/#bb-bmb">Learn More</a>
+							<p class="copy-sm"><strong>FREE</strong> w/<span class="nobr"> BBAA Membership</span></p>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</section>
+	<div class="autoscroll-container tri-in-top tri-in-bottom">
+		<ul id="mf-sponsors" class="autoscroller as-type-2 controllable" role="marquee" aria-live="polite">
+			<li>
+				<a href="#">
+					<img class="dark-mode-invert" alt="BrandName" src="/img/partners/conair.svg" width="128">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="dark-mode-invert" alt="BrandName" src="/img/partners/spotify-equal.png" width="128">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="dark-mode-invert" alt="BrandName" src="/img/partners/soho-house.svg" width="128">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="dark-mode-invert" alt="BrandName" src="/img/partners/cotopaxi.svg" width="128">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="dark-mode-invert" alt="BrandName" src="/img/partners/uber-eats.svg" width="128">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="dark-mode-invert" alt="BrandName" src="/img/partners/eaton.png" width="128">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="dark-mode-invert" alt="BrandName" src="/img/partners/merriweather-post-pavillion.svg" width="128">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="dark-mode-invert" alt="BrandName" src="/img/partners/soundexchange.svg" width="128">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="dark-mode-invert" alt="BrandName" src="/img/partners/chartmetric.svg" width="128">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="dark-mode-invert" alt="BrandName" src="/img/partners/tumblr.svg" width="128">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="dark-mode-invert" alt="BrandName" src="/img/partners/monster-energy.svg" width="128">
+				</a>
+			</li>
+			<!-- <li>
+				<a href="#">
+					<img class="dark-mode-invert" alt="BrandName" src="xxx" width="128">
+				</a>
+			</li> -->
+		</ul>
+		<button class="button autoscroll-pause" onclick="toggleScroll(this, '.autoscroller')">Pause/Resume</button>
+	</div>
+	<footer id="mainFooter">
+		<div class="card">
+			<h2 class="h2">Be the first to know!</h2>
+			<p class="copy">Sign up for email and SMS updates and be the first to hear the latest news about the festival.</p>
+			<button class="cta" data-modal-trigger="modalNewsletter" aria-haspopup="dialog" aria-controls="modalNewsletter" aria-expanded="false">Sign Up to Get Notified</button>
+		</div>
+		<nav id="footerNav" aria-label="Footer links">
+			<ul class="link-list">
+				<li>
+					<a href="/">
+						<span class="visually-hidden">All Things Go</span>
+						<img class="dark-mode-invert" alt="All Things Go logo" width="176" height="24" src="/img/all-things-go-logo.svg">
+					</a>
+				</li>
+				<li>
+					<a class="link" href="/lineup.html">Lineup</a>
+				</li>
+				<li>
+					<a class="link" href="/#experience">Experience</a>
+				</li>
+				<li>
+					<button class="link" data-modal-trigger="modalGettingThere" aria-haspopup="dialog" aria-controls="modalGettingThere" aria-expanded="false">Getting There</button>
+				</li>
+				<li>
+					<a class="link" href="/help.html">Help & Info</a>
+				</li>
+				<li>
+					<a class="link" href="/previous.html">Previous Lineups</a>
+				</li>
+				<li>
+					<button class="link" data-modal-trigger="modalContact" aria-haspopup="dialog" aria-controls="modalContact" aria-expanded="false">Contact</button>
+				</li>
+			</ul>
+			<ul class="social-list">
+				<li>
+					<a class="button button-icon-sm button-round button-inv" href="https://www.instagram.com/allthingsgo/" title="Instagram" target="_blank">
+						<span class="visually-hidden">Instagram</span>
+						<img class="dark-mode-invert" alt="Instagram logo" width="32" height="32" src="/ico/32/social/instagram.svg">
+					</a>
+				</li>
+				<li>
+					<a class="button button-icon-sm button-round button-inv" href="https://www.tiktok.com/@allthingsgofestival" title="TikTok" target="_blank">
+						<span class="visually-hidden">TikTok</span>
+						<img class="dark-mode-invert" alt="TikTok logo" width="32" height="32" src="/ico/32/social/tiktok.svg">
+					</a>
+				</li>
+				<li>
+					<a class="button button-icon-sm button-round button-inv" href="https://twitter.com/allthingsgo" title="Twitter" target="_blank">
+						<span class="visually-hidden">Twitter</span>
+						<img class="dark-mode-invert" alt="Twitter logo" width="32" height="32" src="/ico/32/social/twitter.svg">
+					</a>
+				</li>
+				<li>
+					<a class="button button-icon-sm button-round button-inv" href="https://www.facebook.com/allthingsgomusic/" title="Facebook" target="_blank">
+						<span class="visually-hidden">Facebook</span>
+						<img class="dark-mode-invert" alt="Facebook logo" width="32" height="32" src="/ico/32/social/facebook.svg">
+					</a>
+				</li>
+				<li>
+					<a class="button button-icon-sm button-round button-inv" href="https://www.youtube.com/channel/UCWAXFIEph2w2ntwIT4RWE2w" title="YouTube" target="_blank">
+						<span class="visually-hidden">YouTube</span>
+						<img class="dark-mode-invert" alt="YouTube logo" width="32" height="32" src="/ico/32/social/youtube.svg">
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<div id="footerFinePrint">
+			<ul>
+				<li><a class="small underline" href="">Terms & Conditions</a></li>
+				<li><a class="small underline" href="">Privacy Policy</a></li>
+				<li><a class="small underline" href="">Do Not Sell or Share My Personal Information</a></li>
+			</ul>
+			<small>© 2024 All Things Go</small>
+		</div>
+		<a id="boomfy-sticker" href="/bbaa">Boomfy's Besties All Access</a>
+	</footer>
+	<div id="containerModal">
+		<div id="modalLocation" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+			<header>
+				<h2 id="modalTitle">Where are you headed?</h2>
+				<button class="button button-icon-md" data-close="modal">
+					<span class="visually-hidden">Close</span>
+					<img class="dark-mode-invert" alt="Close" width="32" height="32" src="/ico/32/function/close.svg">
+				</button>
+			</header>
+			<h3>Same Dates, Two Cities</h3>
+			<div id="locationSelect">
+				<a class="active" href="#">
+					<h3>DMV</h3>
+					<h2>Merriweather Post Pavilion</h2>
+					<p class="small">10475 Little Patuxent Pkwy, Columbia, MD 21044</p>
+				</a>
+				<a href="/nyc.html">
+					<h3>NYC</h3>
+					<h2>Forest Hills Stadium</h2>
+					<p class="small">1 Tennis Pl, Forest Hills, NY 11375</p>
+				</a>
+			</div>
+		</div>
+		<div id="modalNewsletter" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+			<header>
+				<h2 id="modalTitle">Bestie’s Newsletter</h2>
+				<button class="button button-icon-md" data-close="modal">
+					<span class="visually-hidden">Close</span>
+					<img class="dark-mode-invert" alt="Close" width="32" height="32" src="/ico/32/function/close.svg">
+				</button>
+			</header>
+			<h3>Subscribe for Updates</h3>
+			<div class="copy-container">
+				<p class="copy">Sign up for email and SMS updates and be the first to hear the latest festival news.</p>
+			</div>
+			<form action="/submit-newsletter-signup" method="POST">
+				<label for="firstName">First Name</label>
+				<input type="text" id="firstName" name="firstName" autocomplete="given-name" required aria-required="true" placeholder="Bea">
+				
+				<label for="lastName">Last Name</label>
+				<input type="text" id="lastName" name="lastName" autocomplete="family-name" required aria-required="true" placeholder="Sharp">
+				
+				<label for="email">Email Address</label>
+				<input type="email" id="email" name="email" autocomplete="email" required aria-required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="bea.sharp@noteworthy.com">
+				
+				<label for="phone">Phone Number</label>
+				<input type="tel" id="phone" name="phone" autocomplete="tel" required aria-required="true" pattern="\([0-9]{3}\) [0-9]{3}-[0-9]{4}" placeholder="(555) BEE-FLAT">
+				
+				<input type="submit" value="Sign Up for Updates">
+			</form>
+		</div>
+		<div id="modalGettingThere" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+			<header>
+				<h2 id="modalTitle">Getting There</h2>
+				<button class="button button-icon-md" data-close="modal">
+					<span class="visually-hidden">Close</span>
+					<img class="dark-mode-invert" alt="Close" width="32" height="32" src="/ico/32/function/close.svg">
+				</button>
+			</header>
+			<h3>FREE Parking is Available <span class="nobr">at the Festival</span></h3>
+			<div id="map-location">
+				<img alt="Arial view of Merriweather Post Pavilion from Apple Maps" width="1152" height="762" src="/img/aerial-view-merriweather.jpg">
+				<h2>Merriweather Post Pavilion</h2>
+				<a class="cta cta-icon"><img class="dark-mode-invert" alt="Google Logo" width="32" height="32" src="/ico/32/social/google.svg">Google Maps</a>
+				<a class="cta cta-icon"><img class="dark-mode-invert" alt="Apple Logo" width="32" height="32" src="/ico/32/social/apple.svg">Apple Maps</a>
+			</div>
+			<h3>10475 Little Patuxent Pkwy, <span class="nobr">Columbia, MD 21044</span></h3>
+			<div class="copy-container">
+				<h4>Reserve a parking spot!</h4>
+				<p class="copy">Visit the <a href="https://merriweathermusic.com/parking/" target="_blank">Merriweather Post Pavilion website</a> for instructions on how to reserve a parking spot for the festival.</p>
+			</div>
+		</div>
+		<div id="modalContact" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+			<header>
+				<h2 id="modalTitle">Contact</h2>
+				<button class="button button-icon-md" data-close="modal">
+					<span class="visually-hidden">Close</span>
+					<img class="dark-mode-invert" alt="Close" width="32" height="32" src="/ico/32/function/close.svg">
+				</button>
+			</header>
+			<h3>Email Us</h3>
+			<div class="copy-container">
+				<p class="copy">Got a question? Send general inquiries to: <a class="underline" href="mailto:support@allthingsgomusic.com">support@allthingsgomusic.com</a></p>
+				<br>
+				<p class="copy">We’ll get back to you as soon as possible.</p>
+				<hr>
+				<p class="copy">If you have any questions about a specific topic, direct your inquiry to the following email addresses.</p>
+				<br>
+				<p class="copy">Sponsorships & Partnerships:<br><a class="underline" href="mailto:sponsors@allthingsgomusic.com">sponsors@allthingsgomusic.com</a></p>
+				<br>
+				<p class="copy">Press:<br><a class="underline" href="mailto:press@allthingsgomusic.com">press@allthingsgomusic.com</a></p>
+			</div>
+		</div>
+	</div>
+	
+	<!-- BASE SCCRIPTS -->
+	<!-- Viewport dimensions set in CSS --> <script>
+		document.addEventListener('DOMContentLoaded', (event) => {
+			const vw = window.innerWidth;
+			const vh = window.innerHeight;
+		
+			// Set the CSS variables
+			document.documentElement.style.setProperty('--vwl', `${vw}px`);
+			document.documentElement.style.setProperty('--vhl', `${vh}px`);
+		});
+	</script>
+	<!-- Main Navigation Toggle Script --> <script>
+		document.addEventListener('DOMContentLoaded', function() {
+			const menuButton = document.getElementById('menuButton');
+			const mainHeader = document.getElementById('mainHeader');
+			const headerNav = document.getElementById('headerNav');
+			// Assuming your <img> tag is the first (or only) one inside the button
+			const menuButtonImage = menuButton.querySelector('img');
+		
+			// Define the paths for your menu and close icons
+			const menuIconPath = '/ico/32/function/menu.svg';
+			const closeIconPath = '/ico/32/function/close.svg';
+		
+			function toggleNav(isOpen) {
+				mainHeader.classList.toggle('nav-open', !isOpen);
+				menuButton.setAttribute('aria-expanded', !isOpen);
+				if (!isOpen) {
+					menuButtonImage.src = closeIconPath;
+					menuButtonImage.alt = 'Close icon';
+				} else {
+					menuButtonImage.src = menuIconPath;
+					menuButtonImage.alt = 'Menu icon';
+				}
+			}
+		
+			menuButton.addEventListener('click', function() {
+				const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
+				toggleNav(isOpen);
+			});
+		
+			// Close the nav when a link inside it is clicked
+			headerNav.addEventListener('click', function(e) {
+				// Check if the clicked element is a link or inside a link
+				if (e.target.tagName === 'A' || e.target.closest('a')) {
+					const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
+					if (isOpen) {
+						toggleNav(isOpen);
+					}
+				}
+			});
+		});
+	</script>
+	<!-- Modal Handeling Script --> <script>
+		document.addEventListener('DOMContentLoaded', function() {
+			// Utility function to find all focusable elements within a given modal
+			function getFocusableElements(modal) {
+				return modal.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+			}
+		
+			// Traps focus within the modal to ensure keyboard navigation remains inside
+			function trapFocus(modal) {
+				const focusableElements = getFocusableElements(modal);
+				const firstFocusableElement = focusableElements[0];
+				const lastFocusableElement = focusableElements[focusableElements.length - 1];
+		
+				modal.addEventListener('keydown', function(e) {
+					let isTabPressed = e.key === 'Tab' || e.keyCode === 9;
+		
+					if (!isTabPressed) {
+						return; // Exit if the key pressed is not the Tab key
+					}
+		
+					if (e.shiftKey) { // Shift + Tab combination
+						if (document.activeElement === firstFocusableElement) {
+							lastFocusableElement.focus(); // Move focus to the last element
+							e.preventDefault();
+						}
+					} else { // Tab key pressed
+						if (document.activeElement === lastFocusableElement) { // If focus has moved to the last focusable element
+							firstFocusableElement.focus(); // Move focus back to the first element
+							e.preventDefault();
+						}
+					}
+				});
+		
+				// Set initial focus to the first focusable element
+				firstFocusableElement.focus();
+			}
+		
+			// Dynamically assigns IDs to modal titles and sets 'aria-labelledby'
+			document.querySelectorAll('[role="dialog"]').forEach(function(modal, index) {
+				var heading = modal.querySelector('h2');
+				if (heading) {
+					var headingId = 'modalTitle-' + index;
+					heading.id = headingId;
+					modal.setAttribute('aria-labelledby', headingId);
+				}
+			});
+		
+			// Disables scrolling on the background content
+			function disableScroll() {
+				document.body.style.top = `-${window.scrollY}px`; // Store the scroll position
+				document.body.classList.add('no-scroll'); // Apply no-scroll class
+			}
+		
+			// Enables scrolling on the background content
+			function enableScroll() {
+				const scrollY = document.body.style.top;
+				document.body.classList.remove('no-scroll'); // Remove no-scroll class
+				window.scrollTo(0, parseInt(scrollY || '0') * -1); // Restore the scroll position
+				document.body.style.top = ''; // Clean up
+			}
+		
+			// Opens a modal and applies necessary ARIA attributes and focus trapping
+			function openModal(modalId) {
+				const modal = document.getElementById(modalId);
+				modal.classList.add('visible');
+				document.getElementById('containerModal').classList.add('visible');
+				// Set aria-hidden on main content areas
+				document.querySelector('header').setAttribute('aria-hidden', 'true');
+				document.querySelector('footer').setAttribute('aria-hidden', 'true');
+				document.querySelector('main').setAttribute('aria-hidden', 'true');
+				// Update aria-expanded for all trigger buttons
+				document.querySelectorAll('[data-modal-trigger]').forEach(button => button.setAttribute('aria-expanded', 'false'));
+				// Mark the current modal button as expanded
+				document.querySelector(`[data-modal-trigger="${modalId}"]`).setAttribute('aria-expanded', 'true');
+				disableScroll(); // Prevent background scrolling
+				trapFocus(modal); // Trap focus within the modal
+			}
+		
+			// Closes the modal and resets ARIA attributes and scrolling
+			function closeModal() {
+				document.querySelectorAll('.modal.visible').forEach(modal => modal.classList.remove('visible'));
+				document.getElementById('containerModal').classList.remove('visible');
+				// Reset aria-hidden on main content areas
+				['header', 'footer', 'main'].forEach(tag => document.querySelector(tag).removeAttribute('aria-hidden'));
+				// Reset aria-expanded for all modal trigger buttons
+				document.querySelectorAll('[data-modal-trigger]').forEach(button => button.setAttribute('aria-expanded', 'false'));
+				enableScroll(); // Allow background scrolling
+			}
+		
+			// Event listeners for opening modals
+			document.querySelectorAll('[data-modal-trigger]').forEach(button => {
+				button.addEventListener('click', function() {
+					openModal(this.getAttribute('data-modal-trigger'));
+				});
+			});
+		
+			// Event listeners for closing modals
+			document.querySelectorAll('.modal [data-close="modal"]').forEach(button => {
+				button.addEventListener('click', closeModal);
+			});
+		
+			// Global keyboard listener for closing modals with the Escape key
+			document.addEventListener('keydown', function(event) {
+				if (event.key === 'Escape' && document.querySelector('.modal.visible')) {
+					closeModal();
+				}
+			});
+		});
+	</script>
+	<!-- Override Anchor Link Scroll --> <script>
+		document.addEventListener('DOMContentLoaded', (event) => {
+			// Function to scroll to the element
+			const scrollToElement = (id) => {
+				setTimeout(() => { // Adding a delay to ensure page layout is stable
+					const element = document.getElementById(id);
+					if (element) {
+						const yOffset = -84; // Adjust this value to your fixed header's height or desired offset
+						const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+						window.scrollTo({top: y, behavior: 'smooth'});
+					}
+				}, 100); // Delay in milliseconds, adjust as needed
+			};
+	
+			// Check if the URL has a hash and scroll to the element accordingly
+			if (window.location.hash) {
+				const id = window.location.hash.replace('#', '');
+				scrollToElement(id);
+			}
+	
+			// Override the default anchor click behavior
+			document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+				anchor.addEventListener('click', function (e) {
+					e.preventDefault();
+					const id = this.getAttribute('href').replace('#', '');
+					scrollToElement(id);
+				});
+			});
+		});
+	</script>
+	<!-- Fade near top of viewport script --><script>
+		document.addEventListener('DOMContentLoaded', function() {
+			// Function to calculate and apply opacity based on element's distance to the top of the viewport
+			const applyOpacity = () => {
+				const elements = document.querySelectorAll('.scroll-top-fade');
+				elements.forEach(element => {
+					const rect = element.getBoundingClientRect();
+					const topDistance = rect.top;
+					let opacity = 1;
+		
+					if (topDistance <= 56 && topDistance >= 20) {
+						// Map the distance range (56px to 20px) to opacity range (1 to 0)
+						opacity = (topDistance - 20) / (56 - 20);
+					} else if (topDistance < 20) {
+						opacity = 0;
+					}
+		
+					// Apply the calculated opacity to the element
+					element.style.opacity = opacity;
+				});
+			};
+		
+			// Apply opacity adjustments when the page is scrolled
+			window.addEventListener('scroll', applyOpacity);
+		
+			// Initial application in case elements are already within range on page load
+			applyOpacity();
+		});
+	
+	</script>
+	<!-- Autoscroller Script Type 2 --><script>
+		/* Autoscroller Script - Type 2*/
+		document.addEventListener('DOMContentLoaded', () => {
+			const speed = 1.5; // Speed of auto-scrolling
+		
+			// Select all elements with the 'autoscroller' class
+			const autoscrollers = document.querySelectorAll('.as-type-2');
+		
+			autoscrollers.forEach(autoscroller => {
+				let isDown = false;
+				let startX;
+				let scrollLeft;
+				let isDragging = false;
+				let scrollAmount = 0;
+				let isHoveringOrFocused = false; // Tracks hover and focus state
+				const originalScrollWidth = autoscroller.scrollWidth; // Full width of the content
+		
+				// Duplicate the content for a seamless looping effect
+				const content = autoscroller.innerHTML;
+				autoscroller.innerHTML += content;
+		
+				// Hide the duplicated content from screen readers
+				Array.from(autoscroller.children).slice(autoscroller.children.length / 2).forEach(child => {
+					child.setAttribute('aria-hidden', 'true');
+				});
+		
+				// Function to update scroll amount
+				function updateScrollAmount() {
+					scrollAmount = autoscroller.scrollLeft;
+				}
+		
+				// Mouse and touch events for draggable functionality
+				function onDragStart(e) {
+					isDown = true;
+					startX = (e.pageX || e.touches[0].pageX) - autoscroller.offsetLeft;
+					scrollLeft = autoscroller.scrollLeft;
+					autoscroller.classList.add('active');
+					updateScrollAmount(); // Update scroll amount on drag start
+				}
+		
+				function onDragEnd(e) {
+					isDown = false;
+					autoscroller.classList.remove('active');
+					if (isDragging) {
+						e.stopPropagation(); // Prevent click event after dragging
+						isDragging = false;
+					}
+					updateScrollAmount(); // Update scroll amount on drag end
+				}
+		
+				function onDragMove(e) {
+					if (!isDown) return;
+					isDragging = true;
+					e.preventDefault();
+					const x = (e.pageX || e.touches[0].pageX) - autoscroller.offsetLeft;
+					const walk = (x - startX) * 1; // Drag speed
+					autoscroller.scrollLeft = scrollLeft - walk;
+				}
+		
+				autoscroller.addEventListener('mousedown', onDragStart);
+				autoscroller.addEventListener('mouseup', onDragEnd);
+				autoscroller.addEventListener('mouseleave', onDragEnd);
+				autoscroller.addEventListener('mousemove', onDragMove);
+				autoscroller.addEventListener('touchstart', onDragStart);
+				autoscroller.addEventListener('touchend', onDragEnd);
+				autoscroller.addEventListener('touchmove', onDragMove);
+		
+				// Function to handle auto-scrolling
+				function scrollContent() {
+					if (!isHoveringOrFocused && !isDown && autoscroller.getAttribute('data-paused') !== 'true') {
+						scrollAmount += speed; // Increment scroll position
+						if (scrollAmount >= originalScrollWidth) {
+							scrollAmount = 0; // Reset scroll position at the end
+						}
+						autoscroller.scrollLeft = scrollAmount; // Apply scroll position
+					}
+					window.requestAnimationFrame(scrollContent); // Continuously loop the function
+				}
+		
+				window.requestAnimationFrame(scrollContent); // Start the scrolling loop
+		
+				// Event listeners for 'controllable' autoscrollers
+				if (autoscroller.classList.contains('controllable')) {
+					autoscroller.addEventListener('mouseenter', () => isHoveringOrFocused = true); // Pause on hover
+					autoscroller.addEventListener('mouseleave', () => isHoveringOrFocused = false); // Resume on mouse leave
+					autoscroller.addEventListener('scroll', updateScrollAmount); // Update scroll amount on user scroll
+		
+					// Manage focus within the scroller for accessibility
+					Array.from(autoscroller.children).forEach(child => {
+						child.addEventListener('focus', () => isHoveringOrFocused = true); // Pause on focus
+						child.addEventListener('blur', () => isHoveringOrFocused = false); // Resume on blur
+					});
+				}
+			});
+		});
+		// Function to toggle the auto-scrolling on user command
+		function toggleScroll(button, selector) {
+			const scrollers = document.querySelectorAll(selector);
+			scrollers.forEach(scroller => {
+				if (scroller.getAttribute('data-paused') === 'true') {
+					scroller.setAttribute('data-paused', 'false'); // Resume scrolling
+					button.textContent = 'Pause'; // Update button text
+					button.classList.remove('paused'); // Remove the 'paused' class
+				} else {
+					scroller.setAttribute('data-paused', 'true'); // Pause scrolling
+					button.textContent = 'Resume'; // Update button text
+					button.classList.add('paused'); // Add the 'paused' class
+				}
+			});
+		}
+	</script>
+	<!-- Autoscroller Script - Type 1 --><script>
+		document.addEventListener('DOMContentLoaded', () => {
+		  const autoscrollContainers = document.querySelectorAll('.as-type-1');
+		
+		  autoscrollContainers.forEach(container => {
+			try {
+			  const autoscroller = container.querySelector('.autoscroller');
+			  // Calculate required width based on 150% of the viewport height
+			  const requiredWidth = window.innerHeight * 1.5;
+			  let contentWidth = autoscroller.offsetWidth;
+			  const initialWidth = contentWidth;
+		
+			  // Calculate how many duplications are needed
+			  if (initialWidth > 0) {
+				const duplicationsNeeded = Math.ceil(requiredWidth / initialWidth) - 1;
+				for (let i = 0; i < duplicationsNeeded; i++) {
+				  autoscroller.innerHTML += autoscroller.innerHTML;
+				  // Update contentWidth to avoid infinite duplication
+				  contentWidth = autoscroller.offsetWidth;
+				  if (contentWidth >= requiredWidth) break;
+				}
+			  }
+			} catch (error) {
+			  console.error("Error processing autoscroll container:", error);
+			}
+		  });
+		
+		  let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+		
+		  // Function to update the horizontal position of each span
+		  const updateScrollEffect = () => {
+			const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+			// Halve the scroll distance for slower horizontal scroll
+			const scrollDistance = (currentScrollTop - lastScrollTop) / 2;
+			lastScrollTop = currentScrollTop;
+		
+			autoscrollContainers.forEach(container => {
+			  if (container.getBoundingClientRect().top < window.innerHeight && container.getBoundingClientRect().bottom > 0) {
+				const autoscroller = container.querySelector('.autoscroller');
+				const spans = autoscroller.children;
+		
+				for (let i = 0; i < spans.length; i++) {
+				  const currentTransform = getComputedStyle(spans[i]).transform;
+				  const matrix = currentTransform.replace(/[^0-9\-.,]/g, '').split(',');
+				  const xTransform = matrix[4] ? parseInt(matrix[4], 10) : 0;
+				  // Check if the element has the .outline class
+				  const translateY = spans[i].classList.contains('outline') ? 'translateY(0.075em) ' : '';
+				  
+				  spans[i].style.transform = `${translateY}translateX(${xTransform - scrollDistance}px)`;
+				}
+			  }
+			});
+		  };
+		
+		  // Listen for scroll events
+		  window.addEventListener('scroll', updateScrollEffect);
+		});
+
+	</script>
+	<!-- Boomfy Sticker Animation --> <script>
+		document.addEventListener("DOMContentLoaded", function() {
+			const sticker = document.getElementById('boomfy-sticker');
+			const windowHeight = window.innerHeight;
+		
+			const checkStickerVisibility = () => {
+				const stickerPosition = sticker.getBoundingClientRect().top;
+				if(stickerPosition < windowHeight) {
+					// The sticker is in the viewport
+					sticker.classList.add('sticker-visible');
+				} else {
+					// The sticker is not in the viewport
+					sticker.classList.remove('sticker-visible');
+				}
+			};
+		
+			// Check on initial load
+			checkStickerVisibility();
+		
+			window.addEventListener('scroll', checkStickerVisibility);
+		});
+	
+	</script>
+	
+	<!-- HERO ELEMENT SCRIPTS -->
+	<!-- Make this apply to a class "hero-parallax" with expected children "background-->
+	<!-- Hero Parallax --> <script>
+		document.addEventListener('DOMContentLoaded', function() {
+			function doParallax() {
+				var scrollPosition = window.pageYOffset || 0; // Ensure a default of 0
+				var parallaxSpeed = 0.5;
+				var offset = scrollPosition * parallaxSpeed;
+				var scale = 1 + (scrollPosition * 0.0005);
+		
+				document.getElementById('poster-image').style.transform = `translateY(${offset * -0.5}px) scale(${scale * 1.125})`;
+			}
+		
+			// Initialize the parallax effect immediately on load
+			doParallax();
+		
+			let lastScrollPosition = 0;
+			let ticking = false;
+		
+			window.addEventListener('scroll', function() {
+				lastScrollPosition = window.pageYOffset;
+		
+				if (!ticking) {
+					window.requestAnimationFrame(function() {
+						doParallax();
+						ticking = false;
+					});
+		
+					ticking = true;
+				}
+			});
+		});
+	</script>
+	<!-- Lineup Animate In --> <script>
+		document.addEventListener('DOMContentLoaded', function() {
+			// Select all li elements within .lineup-list
+			const items = document.querySelectorAll('.lineup-list li');
+			
+			// Loop through each item and set a custom property for animation delay
+			items.forEach((item, index) => {
+				// Set the CSS variable --animate-order on each li
+				item.style.setProperty('--animate-order', index + 1);
+			});
+		});
+	</script>
+	
+	<!-- TICKET SECTION SCRIPTS-->
+	<!-- Check and Set Ticket Summary Header Header (Tablet and Above)--> 
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			// Cache selectors for repeated use.
+			const tabButtons = document.querySelectorAll('.tab-selector button[role="tab"]');
+			const tabPanels = document.querySelectorAll('.tab-panel');
+			const tabContentWrapper = document.querySelector('.tab-content-wrapper');
+			const tickets = document.querySelectorAll('.ticket');
+			let currentActiveIndex = 0; // Default to the first tab.
+			let lastWindowWidth = window.innerWidth; // Track the last window width for resize comparison.
+	
+			// Function to update the minimum height of the tab content wrapper.
+			const updateWrapperMinHeight = () => {
+				const activePanel = tabPanels[currentActiveIndex];
+				const panelHeight = activePanel.offsetHeight;
+				tabContentWrapper.style.minHeight = `${panelHeight}px`;
+				tabContentWrapper.style.maxHeight = `${panelHeight}px`;
+			};
+	
+			// Function to move tab panels on tab switch.
+			const movePanels = (index) => {
+				requestAnimationFrame(() => {
+					const offset = index * -100; // Calculate the offset for the transform.
+					tabPanels.forEach(panel => {
+						panel.style.transform = `translateX(${offset}%)`;
+					});
+					currentActiveIndex = index;
+					updateWrapperMinHeight(); // Update heights without delay.
+				});
+			};
+	
+			// Set up tab switching functionality.
+			tabButtons.forEach((button, index) => {
+				button.addEventListener('click', () => {
+					tabButtons.forEach(btn => btn.setAttribute('aria-selected', 'false'));
+					button.setAttribute('aria-selected', 'true');
+					movePanels(index);
+				});
+			});
+	
+			// Adjust the specific ticket height and manage the 'open' class appropriately.
+			const adjustTicketHeightAndClass = (ticket, isOpenAfterClick) => {
+				const features = ticket.querySelector('.features');
+				if (isOpenAfterClick) {
+					ticket.classList.add('open');
+					features.style.maxHeight = `${features.scrollHeight}px`;
+				} else {
+					ticket.classList.remove('open');
+					features.style.maxHeight = '0';
+				}
+	
+				// Delay to account for CSS transitions.
+				setTimeout(() => {
+					updateWrapperMinHeight(); // Recalculate min-height of wrapper after state change.
+				}, 400); // Match this delay with your CSS transition duration.
+			};
+	
+			// Ensure ticket 'open' state and height are correctly managed on summary click.
+			tickets.forEach(ticket => {
+				const summary = ticket.querySelector('.tt-summary');
+				const exposeButton = ticket.querySelector('.ticket-expose'); // Select the .ticket-expose button within the ticket
+			
+				// Function to toggle the ticket's open state
+				const toggleTicket = () => {
+					const isOpen = ticket.classList.contains('open');
+					adjustTicketHeightAndClass(ticket, !isOpen);
+				};
+			
+				// Event listener for clicks on the summary
+				summary.addEventListener('click', (event) => {
+					// Prevent interaction if clicking on a link within the summary.
+					if (event.target.closest('a')) return;
+			
+					toggleTicket();
+				});
+			
+				// Specifically handle clicks on the .ticket-expose button as well
+				exposeButton.addEventListener('click', (event) => {
+					event.stopPropagation(); // Prevent the event from bubbling up to the summary click handler
+					toggleTicket();
+				});
+			});
+	
+			// Handle feature list showing/hiding within tickets
+			document.querySelectorAll('.ticket .features .cta').forEach(button => {
+				button.addEventListener('click', function(event) {
+					event.stopPropagation(); // Prevent the ticket click event from firing.
+					const ticket = this.closest('.ticket');
+					const featuresList = ticket.querySelector('.features');
+					const allFeatures = featuresList.children;
+					const includedFeatures = ticket.querySelectorAll('.features .included');
+					const showingFeatures = Array.from(includedFeatures).some(feature => feature.style.display === 'none' || feature.style.display === '');
+			
+					// Toggle visibility of included features.
+					Array.from(includedFeatures).forEach(feature => {
+						feature.style.display = showingFeatures ? 'block' : 'none';
+					});
+			
+					this.textContent = showingFeatures ? 'Hide Included Features' : 'Show Included Features';
+					this.classList.toggle('open', showingFeatures);
+			
+					// Use requestAnimationFrame to ensure styles are applied before height calculation
+					requestAnimationFrame(() => {
+						// Calculate total height based on visible items only
+						let totalHeight = 0;
+						Array.from(allFeatures).forEach(feature => {
+							// Include the item in total height only if it's not an 'included' feature being hidden
+							if (showingFeatures || !feature.classList.contains('included')) {
+								totalHeight += feature.offsetHeight;
+							}
+						});
+			
+						// Apply the calculated height to the features list.
+						featuresList.style.maxHeight = `${totalHeight}px`;
+			
+						// Another requestAnimationFrame to ensure maxHeight is applied before updating wrapper
+						requestAnimationFrame(() => {
+							updateWrapperMinHeight(); // Now updates with the correct timing
+						});
+					});
+				});
+			});
+	
+			// Function to uniformly adjust .tt-summary heights across tickets.
+			const adjustSummaryHeights = () => {
+				document.querySelectorAll('.ticket-list').forEach(ticketList => {
+					const summaries = ticketList.querySelectorAll('.tt-summary');
+					let maxHeight = 0;
+	
+					summaries.forEach(summary => {
+						summary.style.height = 'auto'; // Reset to natural height to recalculate.
+						if (window.innerWidth > 768) {
+							maxHeight = Math.max(maxHeight, summary.offsetHeight);
+						}
+					});
+	
+					if (maxHeight > 0) {
+						summaries.forEach(summary => summary.style.height = `${maxHeight}px`);
+					}
+				});
+			};
+	
+			// Handle window resizing with debounce to adjust layout.
+			let resizeTimer;
+			window.addEventListener('resize', () => {
+				clearTimeout(resizeTimer);
+				resizeTimer = setTimeout(() => {
+					const newWidth = window.innerWidth;
+					if (lastWindowWidth !== newWidth) {
+						lastWindowWidth = newWidth; // Update the last known width.
+						adjustSummaryHeights(); // Adjust summary heights based on new window width.
+						updateWrapperMinHeight(); // Recalculate tab content wrapper height.
+					}
+				}, 250);
+			});
+	
+			// Initialize functionalities.
+			adjustSummaryHeights();
+			updateWrapperMinHeight();
+		});
+	</script>
+	
+	<!-- Experience Section Sticky Local -->
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+		  const target = document.querySelector('#experience');
+		  const stickyLocal = document.querySelector('#sticky-local');
+		
+		  const observer = new IntersectionObserver((entries, observer) => {
+			entries.forEach((entry) => {
+			  const viewportHeight = window.innerHeight;
+			  const topPosition = entry.boundingClientRect.top;
+			  const bottomThreshold = viewportHeight - 160; // 100px from the bottom
+		
+			  // Check if the top of the element is within 100px of the viewport's bottom
+			  if (topPosition < bottomThreshold && entry.isIntersecting) {
+				stickyLocal.classList.add('in-view');
+			  } else {
+				stickyLocal.classList.remove('in-view');
+			  }
+			});
+		  }, {
+			root: null, // Viewport
+			threshold: buildThresholdList(), // Granular thresholds for detailed checks
+		  });
+		
+		  observer.observe(target);
+		});
+		
+		// Helper function to create a dense range of threshold values for more granular intersection checks
+		function buildThresholdList() {
+		  let thresholds = [];
+		  for (let i = 1.0; i <= 160; i++) {
+			thresholds.push(i / 160);
+		  }
+		  return thresholds;
+		}
+	</script>
+	<!-- Merch Side Scroller Hint -->
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			const carousel = document.querySelector('.prod-scoller');
+		
+			// Check if the carousel's content is overflowing its container
+			const isOverflowing = carousel.scrollWidth > carousel.offsetWidth;
+		
+			if (isOverflowing) {
+				const observer = new IntersectionObserver(entries => {
+					entries.forEach(entry => {
+						if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+							// Animate the carousel
+							animateCarousel(carousel);
+							// Assuming you only want this to happen once
+							observer.unobserve(carousel);
+						}
+					});
+				}, {threshold: 0.5});
+		
+				observer.observe(carousel);
+			}
+		});
+		
+		function animateCarousel(carousel) {
+			let items = carousel.querySelectorAll('.product');
+			let start = null;
+			const duration = 1500; // Duration in milliseconds
+		
+			function step(timestamp) {
+				if (start === null) start = timestamp;
+				const progress = timestamp - start;
+				const percentage = Math.min(progress / duration, 1);
+		
+				// Ease-in-out function for a smoother animation
+				const easeInOut = (t) => t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+				const easedPercentage = easeInOut(percentage);
+		
+				// Invert the direction of the transform by changing the sign of the result
+				const transformDistance = -Math.sin(easedPercentage * Math.PI) * 200; // Invert direction with "-"
+		
+				items.forEach(item => {
+					item.style.transition = 'transform 0s'; // Apply transform without delay during animation
+					item.style.transform = `translateX(${transformDistance}px)`;
+				});
+		
+				if (progress < duration) {
+					requestAnimationFrame(step);
+				} else {
+					// Ensure final position is reset correctly
+					items.forEach(item => {
+						item.style.transition = ''; // Reset transition to CSS-defined behavior
+						item.style.transform = 'translateX(0px)';
+					});
+				}
+			}
+		
+			requestAnimationFrame(step);
+		}
+
+		// Simple spring effect function, replace with a more complex one for better effect
+		function springEffect(t) {
+			return t * (2 - t); // Simple ease-out effect, modify for a more realistic "spring" effect
+		}
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Help & FAQ | All Things Go Music Festival</title>
+	<link rel="icon" href="/favicon.png" type="image/png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/styles.css">
+	<style>
+		details.cb-content {
+			padding: 0;
+		}
+		details summary {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			padding: 1.5rem 1rem;
+		}
+		details summary h4 {
+			flex: 1;
+			padding: 0 0.5rem;
+			margin: 0;
+		}
+		details > *:not(:first-child) {
+			max-width: calc(100% - 2rem);
+			margin: 0 auto;
+			padding: 1rem 0 1rem;
+		}
+		details > *.copy:nth-child(2) {
+			border-top: 1px solid var(--bg-med);
+		}
+		#help header {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			gap: 0.75rem;
+			padding-bottom: 3rem;
+			padding-right: 1rem;
+			padding-left: 1rem;
+			text-align: center;
+		}
+		#help header h1 {
+			flex: 0 0 100%;
+			margin: 3rem auto 1rem;
+		}
+		#faq-content {
+			overflow: hidden;
+			width: 100%;
+			max-width: 100%;
+			margin: 0 auto;
+			transition: var(--trans-default);
+		}
+		#faq-content ul li:not(:last-child) {
+			padding-right: 0;
+		}
+		#faq-content ul li {
+			padding-bottom: 0;
+		}
+		#faq-content > *:last-child {
+			padding-bottom: 0;
+		}
+		@media (min-width: 752px) {
+			#faq-content {
+				max-width: 45rem;
+				margin: 2rem auto;
+				border: 1px solid var(--fg-prime);
+				border-radius: var(--bradius-med);
+			}
+		}
+	</style>
+</head>
+<body>
+	<header id="mainHeader">
+		<div id="toolbar">
+			<button id="menuButton" class="button button-icon-md" aria-controls="header-nav" aria-expanded="false">
+				<span class="visually-hidden">Menu</span>
+				<img class="dark-mode-invert" alt="Menu icon" width="32" height="32" src="/ico/32/function/menu.svg">
+			</button>
+			<a id="home" title="Home" href="/" aria-label="Homepage">
+				<img class="dark-mode-invert" alt="All Things Go logo" width="176" height="24" src="/img/all-things-go-logo.svg">
+			</a>
+			<p><a href="/bbaa" class="underline">Join Besties</a></p>
+			<a id="toolbar-right" title="Boomfy's Besties All Access" href="/bbaa">
+				<img alt="Boomfy's Besties All Access" width="48" height="48" src="/ico/32/boomfy.png">
+			</a>
+		</div>
+		<nav id="headerNav" aria-label="Main navigation">
+			<ul class="link-list">
+				<li><a class="link" href="/lineup.html">Lineup</a></li>
+				<li><a class="link" href="/set-times-map.html">Set Times & Map</a></li>
+				<li><a class="link" href="/#experience">Experience</a></li>
+				<li><a class="link" href="/#merch">Merch</a></li>
+				<li><a class="link" href="#">Help & Info</a></li>
+				<li><a class="cta" href="/#tickets">Get Tickets</a></li>
+				<li><hr><a class="link" href="https://www.allthingsgo.club">Creator Summit</a></li>
+			</ul>
+			<ul class="button-list">
+				<li><a class="cta cta-icon" href="/bbaa"><img alt="Cloud emoji" width="32" height="32" src="/ico/32/cloud-color.png">Boomfy's Besties</a></li>
+				<li><a class="cta cta-icon" href="https://discord.gg/ewE3WWRY" target="_blank"><img alt="Discord logo" width="32" height="32" src="/ico/32/social/discord-color.svg">Join the Discord</a></li>
+				<li><a class="cta cta-icon" href="https://open.spotify.com/playlist/000UTSbsbk75oD8MW3t8dm" target="_blank"><img alt="Spotify logo" width="32" height="32" src="/ico/32/social/spotify-color.svg">Listen to the Playlist</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="help">
+		<header>
+			<h1>Help & FAQ</h1>
+			<button class="cta" data-modal-trigger="modalGettingThere" aria-haspopup="dialog" aria-controls="modalGettingThere" aria-expanded="false">🗺️ Getting There</button>
+			<button class="cta" data-modal-trigger="modalContact" aria-haspopup="dialog" aria-controls="modalGettingThere" aria-expanded="false">✉️ Get In Touch</button>
+		</header>
+		<h2 class="chamfered-box autoscroll-container tri-above">
+			<span class="cb-content autoscroller">Frequently Asked Questions </span>
+		</h2>
+		<div id="faq-content">
+			<h3 class="header-strip">General</h3>
+			<ul>
+				<li class="chamfered-box">
+					<details class="cb-content">
+						<summary><h4>Will the festival go on rain or shine?</h4></summary>
+						<p class="copy">Yes, the festival will happen rain or shine, so please plan accordingly.</p>
+					</details>
+				</li>
+				<li class="chamfered-box">
+					<details class="cb-content">
+						<summary><h4>Is the festival all-ages?</h4></summary>
+						<p class="copy">Yes, the festival is all-ages.</p>
+					</details>
+				</li>
+				<li class="chamfered-box">
+					<details class="cb-content">
+						<summary><h4>Is there festival re-entry?</h4></summary>
+						<p class="copy">No, there is no re-entry. Once you leave the festival you cannot re-enter.</p>
+					</details>
+				</li>
+				<li class="chamfered-box">
+					<details class="cb-content">
+						<summary><h4>Who do I contact regarding special accommodations for medications and medical devices?</h4></summary>
+						<p class="copy">Patrons requesting special accommodations for medications and medical devices should contact the venue, 410-715-5550 or info@merriweathermusic.com in advance, or speak to the Security Supervisor at their gate of entry. All entry/exit gates are accessible and patrons may enter through authorized points of entry. All persons, bags, and personal items are subject to inspection before entering the venue. No bag or item larger than 13×15 will be permitted inside the venue.</p>
+					</details>
+				</li>
+			</ul>
+			<h3 class="header-strip">Ticketing</h3>
+			<ul>
+				<li class="chamfered-box">
+					<details class="cb-content">
+						<summary><h4>Do you offer payment plans?</h4></summary>
+						<p class="copy">Yes, we offer payment plans for select ticket purchases. <a href="https://help.ticketmaster.com/s/article/How-to-use-Klarna-and-Buy-Now-Pay-Later?language=en_US" target="new">Click here</a> to learn more.</p>
+					</details>
+				</li>
+				<li class="chamfered-box">
+					<details class="cb-content">
+						<summary><h4>Legal Information</h4></summary>
+						<p class="copy">Your ticket is for the All Things Go Music Festival, not for a specific artist. Artists and schedule subject to change without notice. Artist cancellation is not grounds for refund.</p>
+					</details>
+				</li>
+		</ul>
+			<h3 class="header-strip">Where To Stay</h3>
+			<ul>
+				<li class="chamfered-box">
+					<details class="cb-content">
+						<summary><h4>Where should I stay during All Things Go?</h4></summary>
+						<p class="copy">For a discounted rate, please visit our official partner: <a href="https://www.eatonworkshop.com/washington-dc#/booking/step-1?data=('h6hd!'eaton'~a7dt.fs-~r6as!2~cn!0~cg-~al4po!'ATG23'~gp.rn-)5ry.rk.re-~rr*)5ax!0~cy.ds!('p7ls.st*)~my4s7c7ne*)*!null-1%5D.*~1!%5B4!false~5%5D~6s1('7e.%0176541.-*_" target="new">Eaton Hotel</a>. </p>
+						<p class="copy">You can also also find additional discounted hotel options: <a href="https://crewfare.com/events/all-things-go/" target="new">HERE</a>.</p>
+					</details>
+				</li>
+		</ul>
+			<h3 class="header-strip">Getting to the Festival</h3>
+			<ul>
+				<li class="chamfered-box">
+					<details class="cb-content">
+						<summary><h4>Is there free parking at Merriweather?</h4></summary>
+						<p class="copy">Yes, there is FREE parking available at the festival. Please visit <a href="https://merriweathermusic.com/parking/" target="new">the Merriweather Post Pavilion website</a> for instructions on how to reserve a parking spot for the festival.</p>
+					</details>
+				</li>
+		</ul>
+			<h3 class="header-strip">Brining Items to the Festival</h3>
+			<ul>
+				<li class="chamfered-box">
+					<details class="cb-content">
+						<summary><h4>Does the festival have a Lost & Found?</h4></summary>
+						<p class="copy">Merriweather Post Pavilion’s Lost and Found is located in the Customer Service Yurt on the property, during shows. You can drop by or text the Help Line 410-992-2141. After the performances you can call the venue’s Administrative Offices 410-715-5550 to see if your lost item has been turned in.</p>
+					</details>
+				</li>
+				<li class="chamfered-box">
+					<details class="cb-content">
+						<summary><h4>Can I bring bags into the festival?</h4></summary>
+						<p class="copy">All bags are subject to a thorough search upon entry. Guests have the right to refuse a bag search and the venue has a right to refuse entry. If you have any items that are not allowed into the venue, please return them to your vehicle. Bags cannot be larger than 13”x15″. No backpacks of any size. We thank you for your patience and understanding. The safety of our guests and staff is our top priority.</p>
+					</details>
+				</li>
+				<li class="chamfered-box">
+					<details class="cb-content">
+						<summary><h4>What items are allowed into the festival?</h4></summary>
+						<p class="copy">Please refer to <a href="https://merriweathermusic.com/faq/" target="new">the Merriweather Post Pavilion website</a> for items that you can and cannot bring to the festival.</p>
+					</details>
+				</li>
+		</ul>
+			<div class="chamfered-box">
+				<span class="copy-container cb-content">
+					<h4>More Info:</h4>
+					<p class="copy">For more information on the festival venue, please visit <a href="https://merriweathermusic.com/" target="new">the Merriweather Post Pavilion website</a>.</p>
+				</span>
+			</div>
+		</div>
+	</section>
+	<footer id="mainFooter">
+		<div class="card">
+			<h2 class="h2">Be the first to know!</h2>
+			<p class="copy">Sign up for email and SMS updates and be the first to hear the latest news about the festival.</p>
+			<button class="cta" data-modal-trigger="modalNewsletter" aria-haspopup="dialog" aria-controls="modalNewsletter" aria-expanded="false">Sign Up to Get Notified</button>
+		</div>
+		<nav id="footerNav" aria-label="Footer links">
+			<ul class="link-list">
+				<li>
+					<a href="/">
+						<span class="visually-hidden">All Things Go</span>
+						<img class="dark-mode-invert" alt="All Things Go logo" width="176" height="24" src="/img/all-things-go-logo.svg">
+					</a>
+				</li>
+				<li>
+					<a class="link" href="/lineup.html">Lineup</a>
+				</li>
+				<li>
+					<a class="link" href="/#experience">Experience</a>
+				</li>
+				<li>
+					<button class="link" data-modal-trigger="modalGettingThere" aria-haspopup="dialog" aria-controls="modalGettingThere" aria-expanded="false">Getting There</button>
+				</li>
+				<li>
+					<a class="link" href="/help.html">Help & Info</a>
+				</li>
+				<li>
+					<a class="link" href="/previous.html">Previous Lineups</a>
+				</li>
+				<li>
+					<button class="link" data-modal-trigger="modalContact" aria-haspopup="dialog" aria-controls="modalContact" aria-expanded="false">Contact</button>
+				</li>
+			</ul>
+			<ul class="social-list">
+				<li>
+					<a class="button button-icon-sm button-round button-inv" href="https://www.instagram.com/allthingsgo/" title="Instagram" target="_blank">
+						<span class="visually-hidden">Instagram</span>
+						<img class="dark-mode-invert" alt="Instagram logo" width="32" height="32" src="/ico/32/social/instagram.svg">
+					</a>
+				</li>
+				<li>
+					<a class="button button-icon-sm button-round button-inv" href="https://www.tiktok.com/@allthingsgofestival" title="TikTok" target="_blank">
+						<span class="visually-hidden">TikTok</span>
+						<img class="dark-mode-invert" alt="TikTok logo" width="32" height="32" src="/ico/32/social/tiktok.svg">
+					</a>
+				</li>
+				<li>
+					<a class="button button-icon-sm button-round button-inv" href="https://twitter.com/allthingsgo" title="Twitter" target="_blank">
+						<span class="visually-hidden">Twitter</span>
+						<img class="dark-mode-invert" alt="Twitter logo" width="32" height="32" src="/ico/32/social/twitter.svg">
+					</a>
+				</li>
+				<li>
+					<a class="button button-icon-sm button-round button-inv" href="https://www.facebook.com/allthingsgomusic/" title="Facebook" target="_blank">
+						<span class="visually-hidden">Facebook</span>
+						<img class="dark-mode-invert" alt="Facebook logo" width="32" height="32" src="/ico/32/social/facebook.svg">
+					</a>
+				</li>
+				<li>
+					<a class="button button-icon-sm button-round button-inv" href="https://www.youtube.com/channel/UCWAXFIEph2w2ntwIT4RWE2w" title="YouTube" target="_blank">
+						<span class="visually-hidden">YouTube</span>
+						<img class="dark-mode-invert" alt="YouTube logo" width="32" height="32" src="/ico/32/social/youtube.svg">
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<div id="footerFinePrint">
+			<ul>
+				<li><a class="small underline" href="">Terms & Conditions</a></li>
+				<li><a class="small underline" href="">Privacy Policy</a></li>
+				<li><a class="small underline" href="">Do Not Sell or Share My Personal Information</a></li>
+			</ul>
+			<small>© 2024 All Things Go</small>
+		</div>
+		<a id="boomfy-sticker" href="/bbaa">Boomfy's Besties All Access</a>
+	</footer>
+	<div id="containerModal">
+		<div id="modalLocation" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+			<header>
+				<h2 id="modalTitle">Where are you headed?</h2>
+				<button class="button button-icon-md" data-close="modal">
+					<span class="visually-hidden">Close</span>
+					<img class="dark-mode-invert" alt="Close" width="32" height="32" src="/ico/32/function/close.svg">
+				</button>
+			</header>
+			<h3>Same Dates, Two Cities</h3>
+			<div id="locationSelect">
+				<a class="active" href="#">
+					<h3>DMV</h3>
+					<h2>Merriweather Post Pavilion</h2>
+					<p class="small">10475 Little Patuxent Pkwy, Columbia, MD 21044</p>
+				</a>
+				<a href="/nyc.html">
+					<h3>NYC</h3>
+					<h2>Forest Hills Stadium</h2>
+					<p class="small">1 Tennis Pl, Forest Hills, NY 11375</p>
+				</a>
+			</div>
+		</div>
+		<div id="modalNewsletter" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+			<header>
+				<h2 id="modalTitle">Bestie’s Newsletter</h2>
+				<button class="button button-icon-md" data-close="modal">
+					<span class="visually-hidden">Close</span>
+					<img class="dark-mode-invert" alt="Close" width="32" height="32" src="/ico/32/function/close.svg">
+				</button>
+			</header>
+			<h3>Subscribe for Updates</h3>
+			<div class="copy-container">
+				<p class="copy">Sign up for email and SMS updates and be the first to hear the latest festival news.</p>
+			</div>
+			<form action="/submit-newsletter-signup" method="POST">
+				<label for="firstName">First Name</label>
+				<input type="text" id="firstName" name="firstName" autocomplete="given-name" required aria-required="true" placeholder="Bea">
+				
+				<label for="lastName">Last Name</label>
+				<input type="text" id="lastName" name="lastName" autocomplete="family-name" required aria-required="true" placeholder="Sharp">
+				
+				<label for="email">Email Address</label>
+				<input type="email" id="email" name="email" autocomplete="email" required aria-required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="bea.sharp@noteworthy.com">
+				
+				<label for="phone">Phone Number</label>
+				<input type="tel" id="phone" name="phone" autocomplete="tel" required aria-required="true" pattern="\([0-9]{3}\) [0-9]{3}-[0-9]{4}" placeholder="(555) BEE-FLAT">
+				
+				<input type="submit" value="Sign Up for Updates">
+			</form>
+		</div>
+		<div id="modalGettingThere" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+			<header>
+				<h2 id="modalTitle">Getting There</h2>
+				<button class="button button-icon-md" data-close="modal">
+					<span class="visually-hidden">Close</span>
+					<img class="dark-mode-invert" alt="Close" width="32" height="32" src="/ico/32/function/close.svg">
+				</button>
+			</header>
+			<h3>FREE Parking is Available <span class="nobr">at the Festival</span></h3>
+			<div id="map-location">
+				<img alt="Arial view of Merriweather Post Pavilion from Apple Maps" width="1152" height="762" src="/img/aerial-view-merriweather.jpg">
+				<h2>Merriweather Post Pavilion</h2>
+				<a class="cta cta-icon"><img class="dark-mode-invert" alt="Google Logo" width="32" height="32" src="/ico/32/social/google.svg">Google Maps</a>
+				<a class="cta cta-icon"><img class="dark-mode-invert" alt="Apple Logo" width="32" height="32" src="/ico/32/social/apple.svg">Apple Maps</a>
+			</div>
+			<h3>10475 Little Patuxent Pkwy, <span class="nobr">Columbia, MD 21044</span></h3>
+			<div class="copy-container">
+				<h4>Reserve a parking spot!</h4>
+				<p class="copy">Visit the <a href="https://merriweathermusic.com/parking/" target="_blank">Merriweather Post Pavilion website</a> for instructions on how to reserve a parking spot for the festival.</p>
+			</div>
+		</div>
+		<div id="modalContact" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+			<header>
+				<h2 id="modalTitle">Contact</h2>
+				<button class="button button-icon-md" data-close="modal">
+					<span class="visually-hidden">Close</span>
+					<img class="dark-mode-invert" alt="Close" width="32" height="32" src="/ico/32/function/close.svg">
+				</button>
+			</header>
+			<h3>Email Us</h3>
+			<div class="copy-container">
+				<p class="copy">Got a question? Send general inquiries to: <a class="underline" href="mailto:support@allthingsgomusic.com">support@allthingsgomusic.com</a></p>
+				<br>
+				<p class="copy">We’ll get back to you as soon as possible.</p>
+				<hr>
+				<p class="copy">If you have any questions about a specific topic, direct your inquiry to the following email addresses.</p>
+				<br>
+				<p class="copy">Sponsorships & Partnerships:<br><a class="underline" href="mailto:sponsors@allthingsgomusic.com">sponsors@allthingsgomusic.com</a></p>
+				<br>
+				<p class="copy">Press:<br><a class="underline" href="mailto:press@allthingsgomusic.com">press@allthingsgomusic.com</a></p>
+			</div>
+		</div>
+	</div>
+	<main>
+	</main>
+	<!-- Viewport dimensions set in CSS -->
+	<script>
+		document.addEventListener('DOMContentLoaded', (event) => {
+			const vw = window.innerWidth;
+			const vh = window.innerHeight;
+		
+			// Set the CSS variables
+			document.documentElement.style.setProperty('--vwl', `${vw}px`);
+			document.documentElement.style.setProperty('--vhl', `${vh}px`);
+		});
+	</script>
+	<!-- Main Navigation Toggle Script --> <script>
+		document.addEventListener('DOMContentLoaded', function() {
+			const menuButton = document.getElementById('menuButton');
+			const mainHeader = document.getElementById('mainHeader');
+			const headerNav = document.getElementById('headerNav');
+			// Assuming your <img> tag is the first (or only) one inside the button
+			const menuButtonImage = menuButton.querySelector('img');
+		
+			// Define the paths for your menu and close icons
+			const menuIconPath = '/ico/32/function/menu.svg';
+			const closeIconPath = '/ico/32/function/close.svg';
+		
+			function toggleNav(isOpen) {
+				mainHeader.classList.toggle('nav-open', !isOpen);
+				menuButton.setAttribute('aria-expanded', !isOpen);
+				if (!isOpen) {
+					menuButtonImage.src = closeIconPath;
+					menuButtonImage.alt = 'Close icon';
+				} else {
+					menuButtonImage.src = menuIconPath;
+					menuButtonImage.alt = 'Menu icon';
+				}
+			}
+		
+			menuButton.addEventListener('click', function() {
+				const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
+				toggleNav(isOpen);
+			});
+		
+			// Close the nav when a link inside it is clicked
+			headerNav.addEventListener('click', function(e) {
+				// Check if the clicked element is a link or inside a link
+				if (e.target.tagName === 'A' || e.target.closest('a')) {
+					const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
+					if (isOpen) {
+						toggleNav(isOpen);
+					}
+				}
+			});
+		});
+	</script>
+	<!-- Modal Handeling Script -->
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			// Utility function to find all focusable elements within a given modal
+			function getFocusableElements(modal) {
+				return modal.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+			}
+		
+			// Traps focus within the modal to ensure keyboard navigation remains inside
+			function trapFocus(modal) {
+				const focusableElements = getFocusableElements(modal);
+				const firstFocusableElement = focusableElements[0];
+				const lastFocusableElement = focusableElements[focusableElements.length - 1];
+		
+				modal.addEventListener('keydown', function(e) {
+					let isTabPressed = e.key === 'Tab' || e.keyCode === 9;
+		
+					if (!isTabPressed) {
+						return; // Exit if the key pressed is not the Tab key
+					}
+		
+					if (e.shiftKey) { // Shift + Tab combination
+						if (document.activeElement === firstFocusableElement) {
+							lastFocusableElement.focus(); // Move focus to the last element
+							e.preventDefault();
+						}
+					} else { // Tab key pressed
+						if (document.activeElement === lastFocusableElement) { // If focus has moved to the last focusable element
+							firstFocusableElement.focus(); // Move focus back to the first element
+							e.preventDefault();
+						}
+					}
+				});
+		
+				// Set initial focus to the first focusable element
+				firstFocusableElement.focus();
+			}
+		
+			// Dynamically assigns IDs to modal titles and sets 'aria-labelledby'
+			document.querySelectorAll('[role="dialog"]').forEach(function(modal, index) {
+				var heading = modal.querySelector('h2');
+				if (heading) {
+					var headingId = 'modalTitle-' + index;
+					heading.id = headingId;
+					modal.setAttribute('aria-labelledby', headingId);
+				}
+			});
+		
+			// Disables scrolling on the background content
+			function disableScroll() {
+				document.body.style.top = `-${window.scrollY}px`; // Store the scroll position
+				document.body.classList.add('no-scroll'); // Apply no-scroll class
+			}
+		
+			// Enables scrolling on the background content
+			function enableScroll() {
+				const scrollY = document.body.style.top;
+				document.body.classList.remove('no-scroll'); // Remove no-scroll class
+				window.scrollTo(0, parseInt(scrollY || '0') * -1); // Restore the scroll position
+				document.body.style.top = ''; // Clean up
+			}
+		
+			// Opens a modal and applies necessary ARIA attributes and focus trapping
+			function openModal(modalId) {
+				const modal = document.getElementById(modalId);
+				modal.classList.add('visible');
+				document.getElementById('containerModal').classList.add('visible');
+				// Set aria-hidden on main content areas
+				document.querySelector('header').setAttribute('aria-hidden', 'true');
+				document.querySelector('footer').setAttribute('aria-hidden', 'true');
+				document.querySelector('main').setAttribute('aria-hidden', 'true');
+				// Update aria-expanded for all trigger buttons
+				document.querySelectorAll('[data-modal-trigger]').forEach(button => button.setAttribute('aria-expanded', 'false'));
+				// Mark the current modal button as expanded
+				document.querySelector(`[data-modal-trigger="${modalId}"]`).setAttribute('aria-expanded', 'true');
+				disableScroll(); // Prevent background scrolling
+				trapFocus(modal); // Trap focus within the modal
+			}
+		
+			// Closes the modal and resets ARIA attributes and scrolling
+			function closeModal() {
+				document.querySelectorAll('.modal.visible').forEach(modal => modal.classList.remove('visible'));
+				document.getElementById('containerModal').classList.remove('visible');
+				// Reset aria-hidden on main content areas
+				['header', 'footer', 'main'].forEach(tag => document.querySelector(tag).removeAttribute('aria-hidden'));
+				// Reset aria-expanded for all modal trigger buttons
+				document.querySelectorAll('[data-modal-trigger]').forEach(button => button.setAttribute('aria-expanded', 'false'));
+				enableScroll(); // Allow background scrolling
+			}
+		
+			// Event listeners for opening modals
+			document.querySelectorAll('[data-modal-trigger]').forEach(button => {
+				button.addEventListener('click', function() {
+					openModal(this.getAttribute('data-modal-trigger'));
+				});
+			});
+		
+			// Event listeners for closing modals
+			document.querySelectorAll('.modal [data-close="modal"]').forEach(button => {
+				button.addEventListener('click', closeModal);
+			});
+		
+			// Global keyboard listener for closing modals with the Escape key
+			document.addEventListener('keydown', function(event) {
+				if (event.key === 'Escape' && document.querySelector('.modal.visible')) {
+					closeModal();
+				}
+			});
+		});
+	</script>
+	<!-- Autoscroller Script Type 2 -->
+	<script>
+		/* Autoscroller Script - Type 2*/
+		document.addEventListener('DOMContentLoaded', () => {
+			const speed = 1.5; // Speed of auto-scrolling
+		
+			// Select all elements with the 'autoscroller' class
+			const autoscrollers = document.querySelectorAll('.as-type-2');
+		
+			autoscrollers.forEach(autoscroller => {
+				let isDown = false;
+				let startX;
+				let scrollLeft;
+				let isDragging = false;
+				let scrollAmount = 0;
+				let isHoveringOrFocused = false; // Tracks hover and focus state
+				const originalScrollWidth = autoscroller.scrollWidth; // Full width of the content
+		
+				// Duplicate the content for a seamless looping effect
+				const content = autoscroller.innerHTML;
+				autoscroller.innerHTML += content;
+		
+				// Hide the duplicated content from screen readers
+				Array.from(autoscroller.children).slice(autoscroller.children.length / 2).forEach(child => {
+					child.setAttribute('aria-hidden', 'true');
+				});
+		
+				// Function to update scroll amount
+				function updateScrollAmount() {
+					scrollAmount = autoscroller.scrollLeft;
+				}
+		
+				// Mouse and touch events for draggable functionality
+				function onDragStart(e) {
+					isDown = true;
+					startX = (e.pageX || e.touches[0].pageX) - autoscroller.offsetLeft;
+					scrollLeft = autoscroller.scrollLeft;
+					autoscroller.classList.add('active');
+					updateScrollAmount(); // Update scroll amount on drag start
+				}
+		
+				function onDragEnd(e) {
+					isDown = false;
+					autoscroller.classList.remove('active');
+					if (isDragging) {
+						e.stopPropagation(); // Prevent click event after dragging
+						isDragging = false;
+					}
+					updateScrollAmount(); // Update scroll amount on drag end
+				}
+		
+				function onDragMove(e) {
+					if (!isDown) return;
+					isDragging = true;
+					e.preventDefault();
+					const x = (e.pageX || e.touches[0].pageX) - autoscroller.offsetLeft;
+					const walk = (x - startX) * 1; // Drag speed
+					autoscroller.scrollLeft = scrollLeft - walk;
+				}
+		
+				autoscroller.addEventListener('mousedown', onDragStart);
+				autoscroller.addEventListener('mouseup', onDragEnd);
+				autoscroller.addEventListener('mouseleave', onDragEnd);
+				autoscroller.addEventListener('mousemove', onDragMove);
+				autoscroller.addEventListener('touchstart', onDragStart);
+				autoscroller.addEventListener('touchend', onDragEnd);
+				autoscroller.addEventListener('touchmove', onDragMove);
+		
+				// Function to handle auto-scrolling
+				function scrollContent() {
+					if (!isHoveringOrFocused && !isDown && autoscroller.getAttribute('data-paused') !== 'true') {
+						scrollAmount += speed; // Increment scroll position
+						if (scrollAmount >= originalScrollWidth) {
+							scrollAmount = 0; // Reset scroll position at the end
+						}
+						autoscroller.scrollLeft = scrollAmount; // Apply scroll position
+					}
+					window.requestAnimationFrame(scrollContent); // Continuously loop the function
+				}
+		
+				window.requestAnimationFrame(scrollContent); // Start the scrolling loop
+		
+				// Event listeners for 'controllable' autoscrollers
+				if (autoscroller.classList.contains('controllable')) {
+					autoscroller.addEventListener('mouseenter', () => isHoveringOrFocused = true); // Pause on hover
+					autoscroller.addEventListener('mouseleave', () => isHoveringOrFocused = false); // Resume on mouse leave
+					autoscroller.addEventListener('scroll', updateScrollAmount); // Update scroll amount on user scroll
+		
+					// Manage focus within the scroller for accessibility
+					Array.from(autoscroller.children).forEach(child => {
+						child.addEventListener('focus', () => isHoveringOrFocused = true); // Pause on focus
+						child.addEventListener('blur', () => isHoveringOrFocused = false); // Resume on blur
+					});
+				}
+			});
+		});
+		// Function to toggle the auto-scrolling on user command
+		function toggleScroll(button, selector) {
+			const scrollers = document.querySelectorAll(selector);
+			scrollers.forEach(scroller => {
+				if (scroller.getAttribute('data-paused') === 'true') {
+					scroller.setAttribute('data-paused', 'false'); // Resume scrolling
+					button.textContent = 'Pause'; // Update button text
+					button.classList.remove('paused'); // Remove the 'paused' class
+				} else {
+					scroller.setAttribute('data-paused', 'true'); // Pause scrolling
+					button.textContent = 'Resume'; // Update button text
+					button.classList.add('paused'); // Add the 'paused' class
+				}
+			});
+		}
+	</script>
+	<!-- Autoscroller Script - Type 1 -->
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+		  const autoscrollContainers = document.querySelectorAll('.as-type-1');
+		
+		  autoscrollContainers.forEach(container => {
+			try {
+			  const autoscroller = container.querySelector('.autoscroller');
+			  // Calculate required width based on 150% of the viewport height
+			  const requiredWidth = window.innerHeight * 1.5;
+			  let contentWidth = autoscroller.offsetWidth;
+			  const initialWidth = contentWidth;
+		
+			  // Calculate how many duplications are needed
+			  if (initialWidth > 0) {
+				const duplicationsNeeded = Math.ceil(requiredWidth / initialWidth) - 1;
+				for (let i = 0; i < duplicationsNeeded; i++) {
+				  autoscroller.innerHTML += autoscroller.innerHTML;
+				  // Update contentWidth to avoid infinite duplication
+				  contentWidth = autoscroller.offsetWidth;
+				  if (contentWidth >= requiredWidth) break;
+				}
+			  }
+			} catch (error) {
+			  console.error("Error processing autoscroll container:", error);
+			}
+		  });
+		
+		  let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+		
+		  // Function to update the horizontal position of each span
+		  const updateScrollEffect = () => {
+			const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+			// Halve the scroll distance for slower horizontal scroll
+			const scrollDistance = (currentScrollTop - lastScrollTop) / 2;
+			lastScrollTop = currentScrollTop;
+		
+			autoscrollContainers.forEach(container => {
+			  if (container.getBoundingClientRect().top < window.innerHeight && container.getBoundingClientRect().bottom > 0) {
+				const autoscroller = container.querySelector('.autoscroller');
+				const spans = autoscroller.children;
+		
+				for (let i = 0; i < spans.length; i++) {
+				  const currentTransform = getComputedStyle(spans[i]).transform;
+				  const matrix = currentTransform.replace(/[^0-9\-.,]/g, '').split(',');
+				  const xTransform = matrix[4] ? parseInt(matrix[4], 10) : 0;
+		
+				  spans[i].style.transform = `translateX(${xTransform - scrollDistance}px)`;
+				}
+			  }
+			});
+		  };
+		
+		  // Listen for scroll events
+		  window.addEventListener('scroll', updateScrollEffect);
+		});
+	</script>
+	<!-- Override Anchor Link Scroll -->
+	<script>
+		document.addEventListener('DOMContentLoaded', (event) => {
+			// Function to scroll to the element
+			const scrollToElement = (id) => {
+				setTimeout(() => { // Adding a delay to ensure page layout is stable
+					const element = document.getElementById(id);
+					if (element) {
+						const yOffset = -84; // Adjust this value to your fixed header's height or desired offset
+						const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+						window.scrollTo({top: y, behavior: 'smooth'});
+					}
+				}, 100); // Delay in milliseconds, adjust as needed
+			};
+	
+			// Check if the URL has a hash and scroll to the element accordingly
+			if (window.location.hash) {
+				const id = window.location.hash.replace('#', '');
+				scrollToElement(id);
+			}
+	
+			// Override the default anchor click behavior
+			document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+				anchor.addEventListener('click', function (e) {
+					e.preventDefault();
+					const id = this.getAttribute('href').replace('#', '');
+					scrollToElement(id);
+				});
+			});
+		});
+	</script>
+	<!-- Boomfy Sticker Animation -->
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			const sticker = document.getElementById('boomfy-sticker');
+			const windowHeight = window.innerHeight;
+		
+			const checkStickerVisibility = () => {
+				const stickerPosition = sticker.getBoundingClientRect().top;
+				if(stickerPosition < windowHeight) {
+					// The sticker is in the viewport
+					sticker.classList.add('sticker-visible');
+				} else {
+					// The sticker is not in the viewport
+					sticker.classList.remove('sticker-visible');
+				}
+			};
+		
+			// Check on initial load
+			checkStickerVisibility();
+		
+			window.addEventListener('scroll', checkStickerVisibility);
+		});
+	</script>
+</body>
+</html>
